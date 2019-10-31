@@ -84,6 +84,7 @@ public class MainPage extends AppCompatActivity
         if (id == R.id.nav_camera) {
             Intent intent = new Intent(this, EventsPage.class);
             startActivity(intent);
+            //test line
         /*} else if (id == R.id.nav_gallery) {
 
         } else if (id == R.id.nav_slideshow) {
