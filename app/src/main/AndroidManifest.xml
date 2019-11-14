@@ -10,10 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".AshmoleanMusuem"
+            android:parentActivityName=".PlacesPage"
+            android:label="Places"
+        />
+        <activity
             android:name=".PlacesPage"
-            android:parentActivityName=".MainPage"
-            android:label="Places">
-        </activity>
+            android:label="Places"
+            android:parentActivityName=".MainPage" />
         <activity
             android:name=".MainPage"
             android:label="@string/app_name"
@@ -26,10 +30,8 @@
         </activity>
         <activity
             android:name=".EventsPage"
-            android:parentActivityName=".MainPage"
-            android:label="Events">
-        </activity>
-
+            android:label="Events"
+            android:parentActivityName=".MainPage" />
     </application>
 
 </manifest>
