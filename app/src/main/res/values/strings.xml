@@ -11,13 +11,22 @@
     <string name="title_activity_ashmolean_musuem">AshmoleanMusuem</string>
 
     /Strings for Ashmolean page/
-    <string name="Title_Ashmolean">AshmoleanMuseum</string>
+    <string name="Title_Ashmolean">Ashmolean Museum</string>
     <string name="Address_Ashmolean">Address: Beaumont Street, Oxford OX1 2PH.</string>
     <string name="Hours_Ashmolean">Hours Tue – Sun 10:00 – 17:00</string>
-    <string name="Website_Ashmolean">Website: http://www.ashmolean.org/</string>
+    <string name="Website_Ashmolean">Website: <a href="AshmoleanMuseumWebsite">http://www.ashmolean.org</a></string>
     <string name="MainText_Ashmolean">The Ashmolean Museum of Art and Archaeology
         on Beaumont Street, Oxford, England, is the worlds first university museum.
         Its first building was erected in 1678–83 to house the cabinet of curiosities that
         'Elias Ashmole' gave to the University of Oxford in 1677.</string>
-    <string name="title_activity_ashmolean_museum">AshmoleanMuseum</string>
+    <string name="Ashmolean_Signup_Button">Sign up to tour</string>
+    <string name="Ashmolean_Review_Button">Review this place</string>
+
+    /Strings for events page/
+    <string name="Beacon_Festival">Beacon Festival</string>
+    <string name="Oxford_Literary_Festival">Oxford Literary Festival</string>
+    <string name="We_Will_Rock_You">We Will Rock You</string>
+    <string name="Milton_Impossible">Milton Impossible</string>
+    <string name="Oxford_Boxing_Championships">Oxford Boxing Championships</string>
+
 </resources>
