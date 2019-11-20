@@ -7,13 +7,14 @@
     tools:context=".PlacesPage">
 
     <ImageView
-        android:id="@+id/PH1"
+        android:id="@+id/AshMusPic"
         android:layout_width="100dp"
         android:layout_height="75dp"
         android:layout_marginStart="35dp"
         android:layout_marginLeft="35dp"
         android:layout_marginTop="100dp"
-        android:background="@drawable/ic_menu_camera"
+        android:background="@drawable/ashmusplacespic"
+        android:contentDescription="@string/AshMusPicDescrip"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -24,47 +25,51 @@
         android:layout_marginStart="35dp"
         android:layout_marginLeft="35dp"
         android:layout_marginTop="100dp"
-        android:background="@drawable/ic_menu_camera"
+        android:background="@drawable/christchurch"
+        android:contentDescription="@string/ChristChurchPicDescrip"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/PH1" />
+        app:layout_constraintTop_toBottomOf="@+id/AshMusPic" />
 
     <ImageView
         android:id="@+id/PH3"
         android:layout_width="100dp"
         android:layout_height="75dp"
-        android:layout_marginStart="35dp"
-        android:layout_marginLeft="35dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
         android:layout_marginTop="100dp"
-        android:background="@drawable/ic_menu_camera"
+        android:background="@drawable/magdalencollege"
+        android:contentDescription="@string/MagdalenCollegePicDescrip"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/PH2" />
 
     <Button
-        android:id="@+id/PB1"
+        android:id="@+id/AshMusButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
         android:layout_marginLeft="50dp"
         android:layout_marginTop="110dp"
         android:text="@string/Place1"
-        app:layout_constraintStart_toEndOf="@+id/PH1"
+        app:layout_constraintStart_toEndOf="@+id/AshMusPic"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/PB2"
-        android:layout_width="wrap_content"
+        android:id="@+id/ChristChurch"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="130dp"
-        android:text="Button"
-        app:layout_constraintStart_toStartOf="@+id/PB1"
-        app:layout_constraintTop_toBottomOf="@+id/PB1" />
+        android:text="@string/Place2"
+        app:layout_constraintEnd_toEndOf="@+id/AshMusButton"
+        app:layout_constraintStart_toStartOf="@+id/AshMusButton"
+        app:layout_constraintTop_toBottomOf="@+id/AshMusButton" />
 
     <Button
-        android:id="@+id/PB3"
-        android:layout_width="wrap_content"
+        android:id="@+id/MagdalenCollege"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="130dp"
-        android:text="Button"
-        app:layout_constraintStart_toStartOf="@+id/PB2"
-        app:layout_constraintTop_toBottomOf="@+id/PB2" />
+        android:text="@string/Place3"
+        app:layout_constraintEnd_toEndOf="@+id/ChristChurch"
+        app:layout_constraintStart_toStartOf="@+id/ChristChurch"
+        app:layout_constraintTop_toBottomOf="@+id/ChristChurch" />
 </android.support.constraint.ConstraintLayout>

@@ -29,4 +29,9 @@
     <string name="Milton_Impossible">Milton Impossible</string>
     <string name="Oxford_Boxing_Championships">Oxford Boxing Championships</string>
 
+    <string name="Place2">Christ Church</string>
+    <string name="Place3">Magdalen College</string>
+    <string name="AshMusPicDescrip">Places Image for Ash Museum</string>
+    <string name="ChristChurchPicDescrip">Places Image for ChristChurch</string>
+    <string name="MagdalenCollegePicDescrip">Places Image for MagadalenCollege</string>
 </resources>
