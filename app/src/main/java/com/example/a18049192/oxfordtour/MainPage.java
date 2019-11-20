@@ -81,14 +81,14 @@ public class MainPage extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
+        if (id == R.id.nav_events) {
             Intent intent = new Intent(this, EventsPage.class);
             startActivity(intent);
             //test line//
-            //test 2//
-        /*} else if (id == R.id.nav_gallery) {
-
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.nav_places) {
+            Intent intent = new Intent(this, PlacesPage.class);
+            startActivity(intent);
+        /*} else if (id == R.id.nav_slideshow) {
 
         } else if (id == R.id.nav_manage) {
 */
