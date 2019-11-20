@@ -84,8 +84,8 @@ public class MainPage extends AppCompatActivity
         if (id == R.id.nav_events) {
             Intent intent = new Intent(this, EventsPage.class);
             startActivity(intent);
-            //test line//
-        } else if (id == R.id.nav_places) {
+        }
+        else if (id == R.id.nav_places) {
             Intent intent = new Intent(this, PlacesPage.class);
             startActivity(intent);
         /*} else if (id == R.id.nav_slideshow) {
