@@ -101,6 +101,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/MainText_Ashmolean"
-        app:srcCompat="@drawable/AshmoleanMuseum3" />
+        app:srcCompat="@drawable/ashmoleanmuseum3" />
 
 </android.support.constraint.ConstraintLayout>

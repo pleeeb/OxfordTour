@@ -13,16 +13,16 @@ public class PlacesPage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_places_page);
 
-        /*Button ashmuseum = findViewById(R.id.AshMusButton);
+        Button ashmuseum = findViewById(R.id.AshMusButton);
         ashmuseum.setOnClickListener(new View.OnClickListener(){
             //loads the page for the Ashmolean Museum from the first button on the page.
             @Override
             public void onClick(View v) {
-                Intent ashpage = new Intent(this, AshmoleanMuseum.class);
+                Intent ashpage = new Intent(v.getContext(), AshmoleanMusuem.class);
                 startActivity(ashpage);
             }
         });
-
+/*
         Button christbutton = findViewById(R.id.ChristChurch);
         christbutton.setOnClickListener(new View.OnClickListener(){
             //loads the page for the Ashmolean Museum from the first button on the page.
