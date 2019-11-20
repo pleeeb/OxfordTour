@@ -8,9 +8,30 @@
     <string name="action_settings">Settings</string>
     <string name="Local_Events">Events</string>
     <string name="Place1">Ashmolean Museum</string>
+    <string name="title_activity_ashmolean_musuem">AshmoleanMusuem</string>
     <string name="Place2">Christ Church</string>
     <string name="Place3">Magdalen College</string>
     <string name="AshMusPicDescrip">Places Image for Ash Museum</string>
     <string name="ChristChurchPicDescrip">Places Image for ChristChurch</string>
     <string name="MagdalenCollegePicDescrip">Places Image for MagadalenCollege</string>
+
+    /Strings for Ashmolean page/
+    <string name="Title_Ashmolean">Ashmolean Museum</string>
+    <string name="Address_Ashmolean">Address: Beaumont Street, Oxford OX1 2PH.</string>
+    <string name="Hours_Ashmolean">Hours Tue – Sun 10:00 – 17:00</string>
+    <string name="Website_Ashmolean">Website: <a href="AshmoleanMuseumWebsite">http://www.ashmolean.org</a></string>
+    <string name="MainText_Ashmolean">The Ashmolean Museum of Art and Archaeology
+        on Beaumont Street, Oxford, England, is the worlds first university museum.
+        Its first building was erected in 1678–83 to house the cabinet of curiosities that
+        \'Elias Ashmole\' gave to the University of Oxford in 1677.</string>
+    <string name="Ashmolean_Signup_Button">Sign up to tour</string>
+    <string name="Ashmolean_Review_Button">Review this place</string>
+
+    /Strings for events page/
+    <string name="Beacon_Festival">Beacon Festival</string>
+    <string name="Oxford_Literary_Festival">Oxford Literary Festival</string>
+    <string name="We_Will_Rock_You">We Will Rock You</string>
+    <string name="Milton_Impossible">Milton Impossible</string>
+    <string name="Oxford_Boxing_Championships">Oxford Boxing Championships</string>
+
 </resources>
