@@ -10,10 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".AshmoleanMusuem"
-            android:parentActivityName=".PlacesPage"
+            android:name=".Magdalen_College"
             android:label="Places"
-        />
+            android:parentActivityName=".PlacesPage" />
+        <activity
+            android:name=".AshmoleanMusuem"
+            android:label="Places"
+            android:parentActivityName=".PlacesPage" />
         <activity
             android:name=".PlacesPage"
             android:label="Places"
