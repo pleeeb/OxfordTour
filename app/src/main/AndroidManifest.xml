@@ -9,11 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
         <activity
             android:name=".AshmoleanMusuem"
-            android:parentActivityName=".PlacesPage"
             android:label="Places"
-        />
+            android:parentActivityName=".PlacesPage" />
+        <activity
+            android:name=".ChristChurch"
+            android:label="Places"
+            android:parentActivityName=".PlacesPage" />
+
         <activity
             android:name=".PlacesPage"
             android:label="Places"
