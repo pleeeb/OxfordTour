@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Christ_Church"
+    tools:showIn="@layout/activity_christ__church">
+
+    <EditText
+        android:id="@+id/TitleOfChristChurch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="96dp"
+        android:layout_marginLeft="96dp"
+        android:layout_marginTop="52dp"
+        android:ems="10"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:text="Christ Church"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/image_Christ_Church"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/AboutChristChurch"
+        android:layout_width="393dp"
+        android:layout_height="156dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginRight="18dp"
+        android:text="With its compelling combination of majestic architecture, literary heritage and double identity as (parts of) Harry Potter’s Hogwarts, Christ Church attracts tourists galore. Among Oxford’s largest colleges – the largest, if you include its bucolic meadow – and proud possessor of its most impressive quad, plus a superb art gallery and even a cathedral, it was founded in 1525 by Cardinal Wolsey. It later became home to Lewis Carroll, whose picnic excursions with the then-dean’s daughter gave us Alice's Adventures in Wonderland."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Christ_Church_Review" />
+
+    <TextView
+        android:id="@+id/TitleOfDetails"
+        android:layout_width="254dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginRight="148dp"
+        android:text="Details"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AboutChristChurch" />
+
+    <TextView
+        android:id="@+id/Details"
+        android:layout_width="271dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginEnd="131dp"
+        android:layout_marginRight="131dp"
+        android:text="Contact Number -01865-276492
+                      Hours - 10am-5pm Mon-Sat, from 2pm Sun, last admission 4.15pm
+                      Price - adult/child Jul-Aug £10/9, Sep-Jun £8/7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TitleOfDetails" />
+
+    <TextView
+        android:id="@+id/WebsiteChristChurch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="281dp"
+        android:layout_marginRight="281dp"
+        android:autoLink="web"
+        android:clickable="true"
+        android:focusable="auto"
+        android:text="www.chch.ox.ac.uk/"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Details" />
+
+    <ImageView
+        android:id="@+id/image_Christ_Church"
+        android:layout_width="401dp"
+        android:layout_height="192dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginRight="7dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TitleOfChristChurch"
+        app:srcCompat="@drawable/_christ_church" />
+
+    <Button
+        android:id="@+id/Christ_Church_Review"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="323dp"
+        android:layout_marginRight="323dp"
+        android:text="Review"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_Christ_Church" />
+
+    <Button
+        android:id="@+id/Christ_Church_SignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="323dp"
+        android:layout_marginRight="323dp"
+        android:layout_marginBottom="51dp"
+        android:text="SignUp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/WebsiteChristChurch" />
+
+</android.support.constraint.ConstraintLayout>

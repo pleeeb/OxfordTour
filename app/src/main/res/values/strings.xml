@@ -6,5 +6,7 @@
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
-    <string name= "Local_Events">Events</string>
+    <string name="Local_Events">Events</string>
+    <string name="Place1">Ashmolean Museum</string>
+    <string name="title_activity_christ__church">Christ_Church</string>
 </resources>

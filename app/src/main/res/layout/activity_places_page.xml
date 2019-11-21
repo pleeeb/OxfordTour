@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlacesPage">
+
+    <ImageView
+        android:id="@+id/PH1"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/ic_menu_camera"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/PH2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="100dp"
+        android:background="@mipmap/ic_launcher_foreground"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PH1" />
+
+    <ImageView
+        android:id="@+id/PH3"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/ic_menu_camera"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PH2" />
+
+    <Button
+        android:id="@+id/PB1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="110dp"
+        android:text="@string/Place1"
+        app:layout_constraintStart_toEndOf="@+id/PH1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/PB2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:text="Christ Church"
+        app:layout_constraintStart_toStartOf="@+id/PB1"
+        app:layout_constraintTop_toBottomOf="@+id/PB1" />
+
+    <Button
+        android:id="@+id/PB3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:text="Button"
+        app:layout_constraintStart_toStartOf="@+id/PB2"
+        app:layout_constraintTop_toBottomOf="@+id/PB2" />
+
+</android.support.constraint.ConstraintLayout>
