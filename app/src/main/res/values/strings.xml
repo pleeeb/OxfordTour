@@ -33,5 +33,23 @@
     <string name="We_Will_Rock_You">We Will Rock You</string>
     <string name="Milton_Impossible">Milton Impossible</string>
     <string name="Oxford_Boxing_Championships">Oxford Boxing Championships</string>
+    <string name="SignUp1">Sign Up</string>
+    <string name="SignUp2">Sign Up</string>
+    <string name="SignUp3">Sign Up</string>
+    <string name="SignUp4">Sign Up</string>
+    <string name="SignUp5">Sign Up</string>
+
+
+    /Strings for Christ Church page/
+    <string name="Title_Christ_Church">Christ Church</string>
+    <string name="About_Christ_Church">With its compelling combination of majestic architecture, literary heritage and double identity as (parts of) Harry Potter’s Hogwarts, Christ Church attracts tourists galore. Among Oxford’s largest colleges – the largest, if you include its bucolic meadow – and proud possessor of its most impressive quad, plus a superb art gallery and even a cathedral, it was founded in 1525 by Cardinal Wolsey. It later became home to Lewis Carroll, whose picnic excursions with the then-dean’s daughter gave us Alice Adventures in Wonderland.</string>
+    <string name="Details">Details</string>
+    <string name="Info">Contact Number -01865-276492
+                      Hours - 10am-5pm Mon-Sat, from 2pm Sun, last admission 4.15pm
+                      Price - adult/child Jul-Aug £10/9, Sep-Jun £8/7</string>
+    <string name="Christ_Church_Link">www.chch.ox.ac.uk/</string>
+    <string name="Christ_Church_Review">Review</string>
+    <string name="Christ_Church_SignUp">Sign Up</string>
+
 
 </resources>
