@@ -11,82 +11,77 @@
 
     <EditText
         android:id="@+id/Magdalen_College"
-        android:layout_width="156dp"
-        android:layout_height="57dp"
-        android:layout_marginTop="387dp"
-        android:layout_marginEnd="12dp"
-        android:layout_marginRight="12dp"
-        android:layout_marginBottom="108dp"
+        android:layout_width="395dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="404dp"
+        android:autofillHints=""
         android:ems="10"
         android:inputType="textPostalAddress"
         android:text="@string/sunday_services_in_full_term_11_00am_sung_eucharist_this_choral_celebration_of_holy_communion_includes_congregational_hymns_a_sermon_and_a_musical_setting_sung_by_the_choir_it_usually_lasts_just_over_an_hour_those_of_any_and_all_denominations_are_welcome_to_receive_communion_in_chapel_it_s_equally_fine_to_attend_and_not_take_communion_the_service_is_followed_by_lunch_and_wine_or_a_soft_drink_in_the_new_room_to_which_all_are_invited_6_00pm_choral_evensong_perhaps_the_most_distinctively_anglican_of_all_church_services_is_evensong_which_took_shape_in_the_sixteenth_century_when_the_medieval_orders_for_vespers_and_compline_were_combined_in_the_book_of_common_prayer_to_create_a_new_service_evensong_at_magdalen_uses_the_traditional_language_of_the_1662_prayer_book_and_it_offers_the_opportunity_to_hear_a_great_variety_of_musical_settings_of_the_canticles_magnificat_and_nunc_dimittis_along_with_a_wide_range_of_anthems_and_psalm_chants_this_service_typically_lasts_around_40_minutes_or_50_minutes_on_saturday_and_sunday_when_it_includes_congregational_hymns_on_sundays_the_service_is_followed_by_refreshments_in_the_antechapel"
-        app:layout_constraintBottom_toTopOf="@+id/textView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/Inner Court"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        android:autofillHints="" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="169dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="544dp"
+        android:layout_width="390dp"
+        android:layout_height="104dp"
+        android:layout_marginTop="564dp"
         android:text="@string/sunday_services_in_full_term_11_00am_sung_eucharist_this_choral_celebration_of_holy_communion_includes_congregational_hymns_a_sermon_and_a_musical_setting_sung_by_the_choir_it_usually_lasts_just_over_an_hour_those_of_any_and_all_denominations_are_welcome_to_receive_communion_in_chapel_it_s_equally_fine_to_attend_and_not_take_communion_the_service_is_followed_by_lunch_and_wine_or_a_soft_drink_in_the_new_room_to_which_all_are_invited_6_00pm_choral_evensong_perhaps_the_most_distinctively_anglican_of_all_church_services_is_evensong_which_took_shape_in_the_sixteenth_century_when_the_medieval_orders_for_vespers_and_compline_were_combined_in_the_book_of_common_prayer_to_create_a_new_service_evensong_at_magdalen_uses_the_traditional_language_of_the_1662_prayer_book_and_it_offers_the_opportunity_to_hear_a_great_variety_of_musical_settings_of_the_canticles_magnificat_and_nunc_dimittis_along_with_a_wide_range_of_anthems_and_psalm_chants_this_service_typically_lasts_around_40_minutes_or_50_minutes_on_saturday_and_sunday_when_it_includes_congregational_hymns_on_sundays_the_service_is_followed_by_refreshments_in_the_antechapel"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/Chapal"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/The Grounds"
-        android:layout_width="203dp"
-        android:layout_height="186dp"
-        android:layout_marginTop="24dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="397dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="126dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.24000001"
-        app:srcCompat="@drawable/images"
-        android:contentDescription="@string/todo" />
+        app:srcCompat="@drawable/images" />
 
     <ImageView
         android:id="@+id/Inner Court"
-        android:layout_width="226dp"
-        android:layout_height="178dp"
-        android:layout_marginTop="320dp"
-        app:layout_constraintEnd_toStartOf="@+id/Magdalen_College"
-        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_width="407dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="319dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/download1"
-        android:contentDescription="@string/todo" />
+        app:srcCompat="@drawable/download1" />
 
     <ImageView
         android:id="@+id/Chapal"
-        android:layout_width="226dp"
-        android:layout_height="152dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginBottom="16dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/textView2"
-        app:layout_constraintHorizontal_bias="0.22"
-        app:layout_constraintStart_toEndOf="@+id/Inner Court"
+        android:layout_width="394dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="484dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.97"
         app:srcCompat="@drawable/download" />
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="220dp"
+        android:layout_width="391dp"
+        android:layout_height="109dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
         android:text="@string/the_quads_of_the_college_are_all_level_going_and_though_some_areas_are_cobbled_it_is_possible_to_manage_a_wheelchair_addison_s_walk_is_a_path_and_uneven_in_places_and_tree_roots_can_also_be_an_obstacle_there_is_no_access_on_the_eastern_side_of_the_bat_willow_bridge_the_entrance_to_the_college_the_porters_lodge_on_the_high_street_is_not_suited_to_wheelchair_users_but_there_is_a_bell_push_to_contact_the_porter_who_can_open_the_adjacent_gates_to_give_access_other_entrances_which_are_normally_locked_are_better_suited_to_wheelchairs_and_are_usable_by_those_who_are_accompanied_by_a_member_of_college_the_chapel_is_level_going_and_easily_accessible_by_wheelchair_the_hall_has_a_wheelchair_lift_for_those_attending_meals_it_is_regretted_that_since_there_is_no_staff_member_available_in_the_afternoons_this_lift_is_not_available_for_use_by_tourists_the_longwall_library_has_a_lift_for_disabled_access_the_summer_common_room_has_a_lift_on_cloisters_iii_for_disabled_access_by_prior_arrangement_this_can_also_be_used_for_access_to_the_old_library_most_other_areas_of_the_college_including_some_ground_floor_locations_are_not_suited_to_wheelchair_access"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/The Grounds"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
 </android.support.constraint.ConstraintLayout>
