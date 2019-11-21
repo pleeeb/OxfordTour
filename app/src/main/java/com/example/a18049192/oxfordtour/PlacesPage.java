@@ -22,16 +22,17 @@ public class PlacesPage extends AppCompatActivity {
                 startActivity(ashpage);
             }
         });
-/*
+
         Button christbutton = findViewById(R.id.ChristChurch);
         christbutton.setOnClickListener(new View.OnClickListener(){
             //loads the page for the Ashmolean Museum from the first button on the page.
             @Override
             public void onClick(View v) {
-                Intent ph2page = new Intent(this, ChristChurch.class);
+                Intent ph2page = new Intent(v.getContext(), ChristChurch.class);
                 startActivity(ph2page);
             }
         });
+        /*
 
         Button magdalenbutton = findViewById(R.id.MagdalenCollege);
         magdalenbutton.setOnClickListener(new View.OnClickListener(){
