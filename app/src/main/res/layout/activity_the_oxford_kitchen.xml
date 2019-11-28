@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".the_oxford_kitchen">
+
+    <EditText
+        android:id="@+id/oxford_kitchen_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="99dp"
+        android:layout_marginLeft="99dp"
+        android:layout_marginEnd="99dp"
+        android:layout_marginRight="99dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/Oxford_Kitchen_Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/oxford_kitchen_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="37dp"
+        android:layout_marginLeft="37dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginRight="37dp"
+        android:text="@string/Address_Oxford_Kitchen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/oxford_kitchen_title" />
+
+    <TextView
+        android:id="@+id/oxford_kitchen_hours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="57dp"
+        android:layout_marginLeft="57dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginRight="58dp"
+        android:text="@string/Hours_Oxford_Kitchen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/oxford_kitchen_address" />
+
+    <TextView
+        android:id="@+id/oxford_kitchen_website"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="65dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginEnd="66dp"
+        android:layout_marginRight="66dp"
+        android:autoLink="web"
+        android:clickable="true"
+        android:text="@string/Website_Oxford_Kitchen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/oxford_kitchen_hours" />
+
+    <TextView
+        android:id="@+id/oxford_kitchen_maintext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="@string/MainText_Oxford_Kitchen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/oxford_kitchen_website" />
+
+    <ImageView
+        android:id="@+id/oxfordkitchenpic1"
+        android:layout_width="510dp"
+        android:layout_height="223dp"
+        android:contentDescription="@string/OxfordKitchenPicDescription1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/oxford_kitchen_maintext"
+        app:srcCompat="@drawable/the_oxford_kitchen" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="479dp"
+        android:layout_height="203dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/OxfordKitchenPicDescription2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/oxfordkitchenpic1"
+        app:srcCompat="@drawable/the_oxford_kitchen2" />
+</android.support.constraint.ConstraintLayout>

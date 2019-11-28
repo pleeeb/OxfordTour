@@ -25,7 +25,7 @@ public class PlacesPage extends AppCompatActivity {
 
         Button christbutton = findViewById(R.id.ChristChurch);
         christbutton.setOnClickListener(new View.OnClickListener(){
-            //loads the page for the Ashmolean Museum from the first button on the page.
+            //loads the page for Christchurch from the second button on the page.
             @Override
             public void onClick(View v) {
                 Intent ph2page = new Intent(v.getContext(), ChristChurch.class);
