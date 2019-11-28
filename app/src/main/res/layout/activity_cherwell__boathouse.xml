@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cherwell_Boathouse">
+
+    <EditText
+        android:id="@+id/cherwell_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="89dp"
+        android:layout_marginLeft="89dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="109dp"
+        android:layout_marginRight="109dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/Cherwell_Boathouse_Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/address_cherwell"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="7dp"
+        android:text="@string/Address_Cherwell_Boathouse"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cherwell_title" />
+
+    <TextView
+        android:id="@+id/hours_cherwell"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="194dp"
+        android:layout_marginRight="194dp"
+        android:text="@string/Hours_Cherwell_Boathouse"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/address_cherwell" />
+
+    <TextView
+        android:id="@+id/website_cherwell"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="133dp"
+        android:layout_marginRight="133dp"
+        android:autoLink="web"
+        android:clickable="true"
+        android:text="@string/Website_Cherwell_Boathouse"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hours_cherwell" />
+
+    <TextView
+        android:id="@+id/maintext_cherwell"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="52dp"
+        android:text="@string/MainText_Cherwell_Boathouse"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/website_cherwell" />
+
+    <ImageView
+        android:id="@+id/cherwellboathousepic1"
+        android:layout_width="396dp"
+        android:layout_height="190dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:contentDescription="@string/CherwellPicDescription1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/maintext_cherwell"
+        app:srcCompat="@drawable/cherwell_boathouse" />
+
+    <ImageView
+        android:id="@+id/cherwellboathousepic2"
+        android:layout_width="192dp"
+        android:layout_height="141dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginRight="29dp"
+        android:contentDescription="@string/CherwellPicDescription2"
+        app:layout_constraintEnd_toStartOf="@+id/cherwellboathousepic3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cherwellboathousepic1"
+        app:srcCompat="@drawable/cherwell_boathouse2" />
+
+    <ImageView
+        android:id="@+id/cherwellboathousepic3"
+        android:layout_width="171dp"
+        android:layout_height="138dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:contentDescription="@string/CherwellPicDescription3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cherwellboathousepic2"
+        app:layout_constraintTop_toBottomOf="@+id/cherwellboathousepic1"
+        app:srcCompat="@drawable/cherwell_boathouse3" />
+
+</android.support.constraint.ConstraintLayout>

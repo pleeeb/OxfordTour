@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".No1ShipStreet">
+
+    <EditText
+        android:id="@+id/Title_ShipStreet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/No1_Ship_Street_Button"
+        app:layout_constraintEnd_toStartOf="@+id/Address_ShipStreet"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/Address_ShipStreet"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Address_ShipStreet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/Address_No1_ShipStreet"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Title_ShipStreet" />
+
+    <TextView
+        android:id="@+id/Hours_ShipStreet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginRight="52dp"
+        android:text="@string/Hours_No1_ShipStreet"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Address_ShipStreet" />
+
+    <TextView
+        android:id="@+id/Website_ShipStreet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginLeft="72dp"
+        android:layout_marginEnd="73dp"
+        android:layout_marginRight="73dp"
+        android:autoLink="web"
+        android:clickable="true"
+        android:text="@string/Website_No1_ShipStreet"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Hours_ShipStreet" />
+
+    <TextView
+        android:id="@+id/MainText_ShipStreet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="59dp"
+        android:text="@string/MainText_No1_ShipStreet"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Website_ShipStreet" />
+
+    <ImageView
+        android:id="@+id/shipstreetpic1"
+        android:layout_width="413dp"
+        android:layout_height="213dp"
+        android:layout_marginTop="23dp"
+        android:contentDescription="@string/No1ShipstreetPicDescription1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MainText_ShipStreet"
+        app:srcCompat="@drawable/no1_ship_street" />
+
+    <ImageView
+        android:id="@+id/shipstreetpic2"
+        android:layout_width="394dp"
+        android:layout_height="187dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginRight="9dp"
+        android:contentDescription="@string/No1ShipstreetPicDescription2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shipstreetpic1"
+        app:srcCompat="@drawable/no1_ship_street2" />
+
+</android.support.constraint.ConstraintLayout>
