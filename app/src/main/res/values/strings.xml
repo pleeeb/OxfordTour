@@ -104,7 +104,19 @@
     <string name="Christ_Church_Review">Review</string>
     <string name="Christ_Church_SignUp">Sign Up</string>
 
-    /Strings for
-
+    /Strings for Rating Page
+    <string name="RatingsTitle">Ratings</string>
+    <string name="ratingsplace1">ASHMOLEAN MUSUEM - Musuem of Art and Archaelogy</string>
+    <string name="ratingsplace2">CHRIST CHURCH - Literary heritage and a cathedral</string>
+    <string name="ratingsplace3">MAGDALEN COLLEGE - The Deer park and beautiful Cloisters</string>
+    <string name="ratingsrestaurant1">Oxford Kitchen</string>
+    <string name="ratingsrestaurant2">Cherwell Boathouse</string>
+    <string name="ratingsrestaurant3">No.1 Ship Street</string>
+    <string name="GoTo1">Click Here To see more</string>
+    <string name="GoTo2">Click Here To see more</string>
+    <string name="GoTo3">Click Here To see more</string>
+    <string name="GoTo4">Click Here To see more</string>
+    <string name="GoTo5">Click Here To see more</string>
+    <string name="GoTo6">Click Here To see more</string>
 
 </resources>
