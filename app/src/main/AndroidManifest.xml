@@ -1,86 +1,60 @@
-<?xml version="1.0" encoding="utf-8"?><manifest xmlns:android="http://schemas.android.com/apk/res/android"
-xmlns:tools="http://schemas.android.com/tools"
-package="com.example.a18049192.oxfordtour">
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.a18049192.oxfordtour">
 
-<application
-    android:allowBackup="true"
-    android:icon="@mipmap/ic_launcher"
-    android:label="@string/app_name"
-    android:roundIcon="@mipmap/ic_launcher_round"
-    android:supportsRtl="true"
-    android:theme="@style/AppTheme"
-    tools:ignore="GoogleAppIndexingWarning">
-    <activity
-        android:name=".No1ShipStreet"
-        android:label="Restaurants"
-        android:parentActivityName=".RestaurantsPage" />
-    <activity
-        android:name=".Cherwell_Boathouse"
-        android:label="Restaurants"
-        android:parentActivityName=".RestaurantsPage" />
-    <activity
-        android:name=".the_oxford_kitchen"
-        android:label="Restaurants"
-        android:parentActivityName=".RestaurantsPage" />
-    <activity
-        android:name=".RestaurantsPage"
-        android:label="Restaurants"
-        android:parentActivityName=".PlacesPageMenu" />
-    <activity
-        android:name=".PlacesPageMenu"
-        android:label="PlacesMenu"
-        android:parentActivityName=".MainPage" />
-    <activity
-        android:name=".MagdalenCollege"
-        android:label="PlacesMenu"
-        android:theme="@style/AppTheme.NoActionBar"/>
-    <activity
-        android:name=".AshmoleanMusuem"
-        android:label="Places"
-        android:parentActivityName=".PlacesPage" />
-    <activity
-        android:name=".ChristChurch"
-        android:label="Places"
-        android:parentActivityName=".PlacesPage" />
-    <activity
-        android:name=".PlacesPage"
-        android:label="Places"
-        android:parentActivityName=".PlacesPageMenu" />
-    <activity
-        android:name=".MainPage"
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme.NoActionBar" />
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".No1ShipStreet"
+            android:label="Restaurants"
+            android:parentActivityName=".RestaurantsPage" />
+        <activity
+            android:name=".Cherwell_Boathouse"
+            android:label="Restaurants"
+            android:parentActivityName=".RestaurantsPage"/>
+        <activity
+            android:name=".the_oxford_kitchen"
+            android:label="Restaurants"
+            android:parentActivityName=".RestaurantsPage"/>
+        <activity
+            android:name=".RestaurantsPage"
+            android:label="Restaurants"
+            android:parentActivityName=".PlacesPageMenu" />
+        <activity
+            android:name=".PlacesPageMenu"
+            android:label="PlacesMenu"
+            android:parentActivityName=".MainPage" />
+        <activity
+            android:name=".AshmoleanMusuem"
+            android:label="Places"
+            android:parentActivityName=".PlacesPage" />
+        <activity
+            android:name=".ChristChurch"
+            android:label="Places"
+            android:parentActivityName=".PlacesPage" />
+        <activity
+            android:name=".PlacesPage"
+            android:label="Places"
+            android:parentActivityName=".PlacesPageMenu" />
+        <activity
+            android:name=".MainPage"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-    <intent-filter>
-        <action android:name="android.intent.action.MAIN" />
-
-        <category android:name="android.intent.category.LAUNCHER" />
-    </intent-filter>
-
-    <activity
-        android:name=".EventsPage"
-        android:label="Spinner"
-        android:parentActivityName=".EventsPage" />
-    <activity
-        android:name=".EventsPage"
-        android:label="Spinner1"
-        android:parentActivityName=".EventsPage"
-        tools:ignore="DuplicateActivity" />
-    <activity
-        android:name=".EventsPage"
-        android:label="Spinner2"
-        android:parentActivityName=".MainPage"
-        tools:ignore="DuplicateActivity" />
-    <activity
-        android:name=".EventsPage"
-        android:label="Spinner3"
-        android:parentActivityName=".MainPage"
-        tools:ignore="DuplicateActivity" />
-    <activity
-        android:name=".EventsPage"
-        android:label="Spinner4"
-        android:parentActivityName=".MainPage"
-        tools:ignore="DuplicateActivity" />
-</application>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".EventsPage"
+            android:label="Events"
+            android:parentActivityName=".MainPage" />
+    </application>
 
 </manifest>
