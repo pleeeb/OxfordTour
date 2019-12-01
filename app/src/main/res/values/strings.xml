@@ -7,6 +7,7 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
     <string name="Local_Events">Events</string>
+    /Places page Strings/
     <string name="Place1">Ashmolean Museum</string>
     <string name="title_activity_ashmolean_musuem">AshmoleanMusuem</string>
     <string name="Place2">Christ Church</string>
@@ -14,6 +15,59 @@
     <string name="AshMusPicDescrip">Places Image for Ash Museum</string>
     <string name="ChristChurchPicDescrip">Places Image for ChristChurch</string>
     <string name="MagdalenCollegePicDescrip">Places Image for MagadalenCollege</string>
+
+    /Places_page_menu strings/
+    <string name="Landmarks_Button">Landmarks</string>
+    <string name="Restaurants_Button">Restaurants</string>
+
+    /Restaurants_page strings/
+    <string name="Oxford_Kitchen_Button">The Oxford Kitchen</string>
+    <string name="Cherwell_Boathouse_Button">Cherwell Boathouse</string>
+    <string name="No1_Ship_Street_Button">No.1 Ship Street</string>
+
+    /oxford_kitchen_page strings/
+    <string name="Address_Oxford_Kitchen">Address: 215 Banbury Road, Oxford OX2 7HQ England</string>
+    <string name="Hours_Oxford_Kitchen">Hours: Tue - Sat 12:00 - 14:30 and 18:00 - 23:00</string>
+    <string name="Website_Oxford_Kitchen">website: <a href="oxford_kitchen_website">http://www.theoxfordkitchen.co.uk</a></string>
+    <string name="MainText_Oxford_Kitchen">Michelin-starred, nostalgic British dishes with a modern twist.
+        Inspired creations of Executive Chef Paul Welburn, whose food has the critics talking.
+        Paul is renowned for adding a modern twist to some of Britain’s favourite dishes.
+        The Oxford Kitchen offers you a contemporary, intimate setting and friendly, attentive service
+        ideal for savouring the exquisite flavour combinations of their a la carte and tasting menus.
+        Choose from their carefully compiled wine list or start your meal with one of their signature cocktails made with fresh,
+        local ingredients.</string>
+    <string name="OxfordKitchenPicDescription1"> Oxford Kitchen</string>
+    <string name="OxfordKitchenPicDescription2"> Oxford Kitchen </string>
+
+    /cherwell_boathouse_page strings/
+    <string name="Address_Cherwell_Boathouse">Address: 50 Bardwell Road, Oxford, England, OX2 6ST, United Kingdom</string>
+    <string name="Hours_Cherwell_Boathouse">Hours: 12.30-3pm 6.30-9.30pm.</string>
+    <string name="Website_Cherwell_Boathouse">website: <a href="cherwell_boathouse_website">http://cherwellboathouse.co.uk/</a></string>
+    <string name="MainText_Cherwell_Boathouse">A restaurant combined with a punt station,
+        the Cherwell Boathouse boasts one of the best views in the city.
+        This allows you to look out over the river with a glass from their extensive wine list,
+        which has won ‘Wine List of the Year’ from the Good Food Guide.
+        Owned by the Verdin family since 1968, when the restaurant was first opened,
+        the menu matches British ingredients with Gallic flair.
+        Delicious, unusual dishes on the menu include an artichoke crème caramel, fillet of beef with foie gras
+        and a white chocolate and cardamom mousse.
+        A perfect end to a day spent enjoying Oxford’s many treasures is to indulge in a meal in this ideal spot
+        overlooking the historic pastime of punting.</string>
+    <string name="CherwellPicDescription1"> Cherwell boathouse</string>
+    <string name="CherwellPicDescription2"> Cherwell boathouse</string>
+    <string name="CherwellPicDescription3"> Cherwell boathouse</string>
+
+    /no1_shipstreet_page strings/
+    <string name="Address_No1_ShipStreet">Address: 50 Bardwell Road, Oxford, England, OX2 6ST, United Kingdom</string>
+    <string name="Hours_No1_ShipStreet">Hours: Sun: 12:00 - 15:30 Mon - Sat: 12:00 - 23:00</string>
+    <string name="Website_No1_ShipStreet">website: <a href="shipstreet_website">https://www.no1shipstreet.com/</a></string>
+    <string name="MainText_No1_ShipStreet">The Ground Floor is a Modern British Brasserie.
+        The First Floor is a Champagne, Oyster and Cocktail Bar.
+        Bar dining, full A La Carte Menu available.
+        Daily specials board with oysters, lobster and market fish of the day.</string>
+    <string name="No1ShipstreetPicDescription1"> No1 ShipStreet</string>
+    <string name="No1ShipstreetPicDescription2"> No1 ShipStreet</string>
+
 
     /Strings for Ashmolean page/
     <string name="Title_Ashmolean">Ashmolean Museum</string>
@@ -39,7 +93,6 @@
     <string name="SignUp4">Sign Up</string>
     <string name="SignUp5">Sign Up</string>
 
-
     /Strings for Christ Church page/
     <string name="Title_Christ_Church">Christ Church</string>
     <string name="About_Christ_Church">With its compelling combination of majestic architecture, literary heritage and double identity as (parts of) Harry Potter’s Hogwarts, Christ Church attracts tourists galore. Among Oxford’s largest colleges – the largest, if you include its bucolic meadow – and proud possessor of its most impressive quad, plus a superb art gallery and even a cathedral, it was founded in 1525 by Cardinal Wolsey. It later became home to Lewis Carroll, whose picnic excursions with the then-dean’s daughter gave us Alice Adventures in Wonderland.</string>
@@ -52,5 +105,19 @@
     <string name="Christ_Church_SignUp">Sign Up</string>
     <string name="title_activity_maps_page">Map</string>
 
+    /Strings for Rating Page
+    <string name="RatingsTitle">Ratings</string>
+    <string name="ratingsplace1">ASHMOLEAN MUSUEM - Musuem of Art and Archaelogy</string>
+    <string name="ratingsplace2">CHRIST CHURCH - Literary heritage and a cathedral</string>
+    <string name="ratingsplace3">MAGDALEN COLLEGE - The Deer park and beautiful Cloisters</string>
+    <string name="ratingsrestaurant1">Oxford Kitchen</string>
+    <string name="ratingsrestaurant2">Cherwell Boathouse</string>
+    <string name="ratingsrestaurant3">No.1 Ship Street</string>
+    <string name="GoTo1">Click Here To see more</string>
+    <string name="GoTo2">Click Here To see more</string>
+    <string name="GoTo3">Click Here To see more</string>
+    <string name="GoTo4">Click Here To see more</string>
+    <string name="GoTo5">Click Here To see more</string>
+    <string name="GoTo6">Click Here To see more</string>
 
 </resources>

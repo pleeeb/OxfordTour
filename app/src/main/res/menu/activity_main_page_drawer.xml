@@ -17,11 +17,11 @@
             android:id="@+id/nav_map"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="Map" />
-        <!--
+
         <item
-            android:id="@+id/nav_manage"
+            android:id="@+id/nav_ratings"
             android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />-->
+            android:title="Ratings" />
     </group>
 
     <!--<item android:title="Communicate">

@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Ratings"
+    tools:showIn="@layout/activity_ratings">
+
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+
+            android:id="@+id/RatingsTitle"
+            android:layout_width="230dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="3dp"
+            android:text="@string/RatingsTitle"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/Place1"
+            android:layout_width="122dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="281dp"
+            android:layout_marginRight="281dp"
+            android:text="@string/ratingsplace1"
+
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/RatingsTitle" />
+
+        <RatingBar
+            android:id="@+id/Rating1"
+            android:layout_width="250dp"
+            android:layout_height="44dp"
+            android:layout_marginEnd="280dp"
+            android:layout_marginRight="280dp"
+            android:isIndicator="false"
+            android:numStars="5"
+            android:rating="0"
+            android:scaleX=".5"
+            android:scaleY=".5"
+            android:stepSize="1.0"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            app:layout_constraintHorizontal_bias="0.436"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Place1" />
+
+        <Button
+            android:id="@+id/GoTo1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="76dp"
+            android:layout_marginEnd="48dp"
+            android:layout_marginRight="48dp"
+            android:text="@string/GoTo1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintLeft_toRightOf="@+id/Place1"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/Place2"
+            android:layout_width="121dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="12dp"
+            android:text="@string/ratingsplace2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/Rating1" />
+
+        <RatingBar
+            android:id="@+id/Rating2"
+            android:layout_width="248dp"
+            android:layout_height="45dp"
+            android:layout_marginEnd="216dp"
+            android:layout_marginRight="216dp"
+            android:isIndicator="false"
+            android:numStars="5"
+            android:rating="0"
+            android:scaleX=".5"
+            android:scaleY=".5"
+            android:stepSize="1.0"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Place2" />
+
+        <Button
+            android:id="@+id/GoTo2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="56dp"
+            android:layout_marginEnd="48dp"
+            android:layout_marginRight="48dp"
+            android:text="@string/GoTo2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintLeft_toRightOf="@+id/Place2"
+            app:layout_constraintTop_toBottomOf="@+id/GoTo1" />
+
+        <TextView
+            android:id="@+id/Place3"
+            android:layout_width="120dp"
+            android:layout_height="41dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginRight="24dp"
+            android:text="@string/Place3"
+            app:layout_constraintEnd_toStartOf="@+id/GoTo3"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/Rating2" />
+
+        <RatingBar
+            android:id="@+id/Rating3"
+            android:layout_width="237dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="224dp"
+            android:layout_marginRight="224dp"
+            android:isIndicator="false"
+            android:numStars="5"
+            android:rating="0"
+            android:scaleX=".5"
+            android:scaleY=".5"
+            android:stepSize="1.0"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Place3" />
+
+        <Button
+            android:id="@+id/GoTo3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="48dp"
+            android:layout_marginRight="48dp"
+            android:text="@string/GoTo3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintLeft_toRightOf="@+id/Place3"
+            app:layout_constraintTop_toBottomOf="@+id/GoTo2" />
+
+        <TextView
+            android:id="@+id/Restaurant1"
+            android:layout_width="117dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginRight="40dp"
+            android:text="@string/ratingsrestaurant1"
+            app:layout_constraintEnd_toStartOf="@+id/GoTo4"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/Rating3" />
+
+        <RatingBar
+            android:id="@+id/Rating4"
+            android:layout_width="235dp"
+            android:layout_height="55dp"
+            android:layout_marginEnd="228dp"
+            android:layout_marginRight="228dp"
+            android:isIndicator="false"
+            android:numStars="5"
+            android:rating="0"
+            android:scaleX=".5"
+            android:scaleY=".5"
+            android:stepSize="1.0"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Restaurant1" />
+
+        <Button
+            android:id="@+id/GoTo4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="76dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginRight="60dp"
+            android:text="@string/GoTo4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintLeft_toRightOf="@+id/Restaurant1"
+            app:layout_constraintTop_toBottomOf="@+id/GoTo3" />
+
+        <TextView
+            android:id="@+id/Restaurant2"
+            android:layout_width="117dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginRight="40dp"
+            android:text="@string/ratingsrestaurant2"
+            app:layout_constraintEnd_toStartOf="@+id/GoTo5"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/Rating4" />
+
+        <RatingBar
+            android:id="@+id/Rating5"
+            android:layout_width="235dp"
+            android:layout_height="55dp"
+            android:layout_marginEnd="228dp"
+            android:layout_marginRight="228dp"
+            android:isIndicator="false"
+            android:numStars="5"
+            android:rating="0"
+            android:scaleX=".5"
+            android:scaleY=".5"
+            android:stepSize="1.0"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Restaurant2" />
+
+        <Button
+            android:id="@+id/GoTo5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="64dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginRight="60dp"
+            android:text="@string/GoTo5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintLeft_toRightOf="@+id/Restaurant2"
+            app:layout_constraintTop_toBottomOf="@+id/GoTo4" />
+
+        <TextView
+            android:id="@+id/Restaurant3"
+            android:layout_width="117dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginRight="40dp"
+            android:text="@string/ratingsrestaurant3"
+            app:layout_constraintEnd_toStartOf="@+id/GoTo6"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/Rating5" />
+
+        <RatingBar
+            android:id="@+id/Rating6"
+            android:layout_width="235dp"
+            android:layout_height="55dp"
+            android:layout_marginEnd="228dp"
+            android:layout_marginRight="228dp"
+            android:isIndicator="false"
+            android:numStars="5"
+            android:rating="0"
+            android:scaleX=".5"
+            android:scaleY=".5"
+            android:stepSize="1.0"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Restaurant3" />
+
+        <Button
+            android:id="@+id/GoTo6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginRight="60dp"
+            android:text="@string/GoTo6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintLeft_toRightOf="@+id/Restaurant3"
+            app:layout_constraintTop_toBottomOf="@+id/GoTo5" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

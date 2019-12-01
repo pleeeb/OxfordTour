@@ -86,13 +86,15 @@ public class MainPage extends AppCompatActivity
             startActivity(intent);
         }
         else if (id == R.id.nav_places) {
-            Intent intent = new Intent(this, PlacesPage.class);
+            Intent intent = new Intent(this, PlacesPageMenu.class);
             startActivity(intent);
         } else if (id == R.id.nav_map) {
             Intent intent = new Intent(this, MapsPage.class);
             startActivity(intent);
-        /*} else if (id == R.id.nav_manage) {
-*/
+        } else if (id == R.id.nav_ratings) {
+            Intent intent = new Intent(this, Ratings.class);
+            startActivity(intent);
+
         /*} else if (id == R.id.nav_share) {
 
         } else if (id == R.id.nav_send) {

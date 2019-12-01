@@ -39,6 +39,26 @@
                 android:value="com.example.a18049192.oxfordtour.MainPage" />
         </activity>
         <activity
+            android:name=".No1ShipStreet"
+            android:label="Restaurants"
+            android:parentActivityName=".RestaurantsPage" />
+        <activity
+            android:name=".Cherwell_Boathouse"
+            android:label="Restaurants"
+            android:parentActivityName=".RestaurantsPage"/>
+        <activity
+            android:name=".the_oxford_kitchen"
+            android:label="Restaurants"
+            android:parentActivityName=".RestaurantsPage"/>
+        <activity
+            android:name=".RestaurantsPage"
+            android:label="Restaurants"
+            android:parentActivityName=".PlacesPageMenu" />
+        <activity
+            android:name=".PlacesPageMenu"
+            android:label="PlacesMenu"
+            android:parentActivityName=".MainPage" />
+        <activity
             android:name=".AshmoleanMusuem"
             android:label="Places"
             android:parentActivityName=".PlacesPage" />
@@ -49,7 +69,13 @@
         <activity
             android:name=".PlacesPage"
             android:label="Places"
+            android:parentActivityName=".PlacesPageMenu" />
+        <activity
+            android:name=".Ratings"
+            android:label="Ratings"
             android:parentActivityName=".MainPage" />
+
+
         <activity
             android:name=".MainPage"
             android:label="@string/app_name"
