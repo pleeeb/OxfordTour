@@ -1,6 +1,6 @@
 package com.example.a18049192.oxfordtour;
 
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 public class AshmoleanMusuem extends AppCompatActivity {

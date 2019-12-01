@@ -50,6 +50,7 @@
     <string name="Christ_Church_Link">www.chch.ox.ac.uk/</string>
     <string name="Christ_Church_Review">Review</string>
     <string name="Christ_Church_SignUp">Sign Up</string>
+    <string name="title_activity_maps_page">Map</string>
 
 
 </resources>
