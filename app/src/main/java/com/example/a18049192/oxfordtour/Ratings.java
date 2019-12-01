@@ -2,12 +2,14 @@ package com.example.a18049192.oxfordtour;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.android.material.snackbar.Snackbar;
 import android.view.View;
 import android.widget.Button;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+
 
 public class Ratings extends AppCompatActivity {
 
@@ -15,8 +17,8 @@ public class Ratings extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ratings);
-        Toolbar toolbar = findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+        //Toolbar toolbar = findViewById(R.id.toolbar);
+        //setSupportActionBar(toolbar);
 
         Button Place1button = findViewById(R.id.GoTo1);
         Place1button.setOnClickListener(new View.OnClickListener(){
@@ -36,6 +38,7 @@ public class Ratings extends AppCompatActivity {
                 startActivity(p2page);
             }
         });
+
         /*
         Button Place3button = findViewById(R.id.GoTo3);
         Place1button.setOnClickListener(new View.OnClickListener(){
@@ -75,15 +78,6 @@ public class Ratings extends AppCompatActivity {
             }
         });
 
-
-        FloatingActionButton fab = findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
     }
 
 }
