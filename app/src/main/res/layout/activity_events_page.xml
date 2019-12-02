@@ -10,67 +10,65 @@
         android:id="@+id/textView3"
         android:layout_width="230dp"
         android:layout_height="49dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="3dp"
         android:text="@string/Local_Events"
         android:textSize="30sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Spinner
+    <TextView
         android:id="@+id/Oxford_Boxing"
-        android:layout_width="116dp"
-        android:layout_height="38dp"
-        android:layout_marginStart="84dp"
-        android:layout_marginLeft="84dp"
-        android:layout_marginTop="60dp"
-        android:overScrollMode="ifContentScrolls"
-        android:text="@string/boxing_for_fitness_is_one_of_the_fastest_growing_activities_for_women_nationally_and_globally_boxing_for_fitness_is_not_only_one_of_the_best_ways_to_tone_up_and_burn_fat_but_it_is_also_a_cathartic_stress_reliever_which_can_aid_the_release_of_pent_up_tension_and_emotions_which_we_all_carry_around_day_to_day_our_women_s_fitness_classes_are_purely_geared_towards_women_who_enjoy_a_great_body_workout_to_burn_off_calories_and_improve_stamina_without_having_to_go_in_the_ring_boxing_training_is_also_one_of_the_few_static_cardio_workouts_that_is_safe_for_those_with_joint_problems_often_associated_with_weight_gain_our_women_s_training_session_consists_of_bag_pad_work_skipping_floor_exercises_legs_bums_and_tums_with_stretching_exercises_to_finish_off_competitive_boxing_requires_commitment_those_that_wish_to_box_competitively_can_discuss_their_requirement_with_one_of_the_instructors_who_will_advise_them_on_the_process_please_email_for_more_information_faz_oxfordboxingacademy_com"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="52dp"
+        android:text="@string/Oxford_Boxing_Championships"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
-    <Spinner1
+    <TextView
         android:id="@+id/Beacon_Festival"
-        android:layout_width="61dp"
-        android:layout_height="35dp"
-        android:layout_marginStart="84dp"
-        android:layout_marginLeft="84dp"
-        android:layout_marginTop="80dp"
-        android:overScrollMode="ifContentScrolls"
-        android:text="@string/boxing_for_fitness_is_one_of_the_fastest_growing_activities_for_women_nationally_and_globally"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="61dp"
+        android:text="@string/Beacon_Festival"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Oxford_Boxing" />
 
-    <Spinner2
+    <TextView
         android:id="@+id/Oxford_Literary_Festival"
-        android:layout_width="65dp"
-        android:layout_height="23dp"
-        android:layout_marginStart="100dp"
-        android:layout_marginLeft="100dp"
-        android:layout_marginTop="80dp"
-        android:overScrollMode="ifContentScrolls"
-        android:text="@string/boxing_for_fitness_is_one_of_the_fastest_growing_activities_for_women_nationally_and_globally"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="74dp"
+        android:text="@string/Oxford_Literary_Festival"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Beacon_Festival" />
 
-    <Spinner3
+    <TextView
         android:id="@+id/Milton_Impossible"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="72dp"
-        android:layout_marginLeft="72dp"
-        android:layout_marginTop="100dp"
-        android:overScrollMode="ifContentScrolls"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="85dp"
         android:text="@string/Milton_Impossible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Oxford_Literary_Festival" />
 
-    <Spinner4
+    <TextView
         android:id="@+id/We_will_rock_you"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="84dp"
-        android:layout_marginLeft="84dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
         android:layout_marginTop="92dp"
-        android:overScrollMode="ifContentScrolls"
         android:text="@string/We_Will_Rock_You"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Milton_Impossible" />
@@ -81,12 +79,11 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="80dp"
         android:layout_marginLeft="80dp"
-        android:layout_marginTop="92dp"
+        android:layout_marginTop="91dp"
         android:layout_marginEnd="35dp"
         android:layout_marginRight="35dp"
         android:text="@string/SignUp1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.627"
         app:layout_constraintStart_toEndOf="@+id/Oxford_Boxing"
         app:layout_constraintTop_toTopOf="parent" />
 

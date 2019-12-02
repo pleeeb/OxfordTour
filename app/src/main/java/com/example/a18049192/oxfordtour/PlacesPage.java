@@ -32,16 +32,15 @@ public class PlacesPage extends AppCompatActivity {
                 startActivity(ph2page);
             }
         });
-        /*
 
-        Button magdalenbutton = findViewById(R.id.MagdalenCollege);
-        magdalenbutton.setOnClickListener(new View.OnClickListener(){
-            //loads the page for the Ashmolean Museum from the first button on the page.
+        Button magbutton = findViewById(R.id.MagdalenCollege);
+        magbutton.setOnClickListener(new View.OnClickListener(){
+            //loads the page for Christchurch from the second button on the page.
             @Override
             public void onClick(View v) {
-                Intent ph3page = new Intent(this, MagdalenCollege.class);
+                Intent ph3page = new Intent(v.getContext(), MagdalenCollege.class);
                 startActivity(ph3page);
             }
-        });*/
+        });
     }
 }
