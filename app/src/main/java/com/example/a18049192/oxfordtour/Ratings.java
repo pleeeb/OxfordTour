@@ -39,16 +39,16 @@ public class Ratings extends AppCompatActivity {
             }
         });
 
-        /*
+
         Button Place3button = findViewById(R.id.GoTo3);
-        Place1button.setOnClickListener(new View.OnClickListener(){
-            //loads the page for Christchurch from the second button on the page.
+        Place3button.setOnClickListener(new View.OnClickListener(){
+            //loads the page for MagdalenCollege from the third button on the page.
             @Override
             public void onClick(View v) {
-                Intent p3page = new Intent(v.getContext(), MagdelanCollege.class);
+                Intent p3page = new Intent(v.getContext(), MagdalenCollege.class);
                 startActivity(p3page);
             }
-        });  */
+        });
 
         Button Restaurant1button = findViewById(R.id.GoTo4);
         Restaurant1button.setOnClickListener(new View.OnClickListener(){

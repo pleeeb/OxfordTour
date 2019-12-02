@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        tools:context=".MagdalenCollege">
+
+
+        <EditText
+            android:id="@+id/MagdalenCollege"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            android:text="@string/magdalen_college"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/AboutMagdalenCollege"
+            android:layout_width="393dp"
+            android:layout_height="156dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:text="@string/magdalen_college_runs_regular_outreach_events_in_oxford_and_in_schools_these_are_run_for_state_maintained_schools_and_schools_with_a_high_proportion_of_students_from_groups_that_are_under_represented_at_oxford_our_events_are_primarily_for_schools_located_in_our_seven_link_regions_barnsley_brent_nottingham_nottinghamshire_rotherham_sheffield_and_westminster_if_you_are_not_based_in_one_of_these_regions_but_would_like_to_organise_an_outreach_event_with_the_university_of_oxford_then_please_find_your_link_college_here"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Magdalen_College_Review" />
+
+        <TextView
+            android:id="@+id/TitleOfDetails"
+            android:layout_width="254dp"
+            android:layout_height="43dp"
+            android:text="@string/Details"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/AboutMagdalenCollege" />
+
+        <TextView
+            android:id="@+id/Details"
+            android:layout_width="271dp"
+            android:layout_height="93dp"
+            android:text="@string/contact_number_01865_276492_hours_10am_5pm_mon_sat_from_2pm_sun"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="537dp"
+        app:layout_constraintTop_toBottomOf="@+id/WebsiteMagdalenCollege" />
+
+        <TextView
+            android:id="@+id/WebsiteMagdalenCollege"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="@string/www_magd_ox_ac_uk"
+            app:layout_constraintBottom_toTopOf="@+id/Details"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/TitleOfDetails" />
+
+        <ImageView
+            android:id="@+id/magdalencollege"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:contentDescription="@string/MagdalenCollegePicDescrip"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/magdalencollege" />
+
+        <Button
+            android:id="@+id/Magdalen_College_Review"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/magdalen_college_review"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Magdalen_College_SignUp" />
+
+        <Button
+            android:id="@+id/Magdalen_College_SignUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/magdalen_college_signup"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/magdalencollege" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -67,13 +67,17 @@
             android:label="Places"
             android:parentActivityName=".PlacesPage" />
         <activity
-            android:name=".PlacesPage"
-            android:label="Places"
-            android:parentActivityName=".PlacesPageMenu" />
+        android:name=".PlacesPage"
+        android:label="Places"
+        android:parentActivityName=".PlacesPageMenu" />
         <activity
             android:name=".Ratings"
             android:label="Ratings"
             android:parentActivityName=".MainPage" />
+        <activity
+            android:name=".MagdalenCollege"
+            android:label="Magdalen"
+            android:parentActivityName=".PlacesPageMenu" />
 
 
         <activity
