@@ -7,6 +7,8 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
     <string name="Local_Events">Events</string>
+    <string name="nav_signup">Signup/Login</string>
+
     /Places page Strings/
     <string name="Place1">Ashmolean Museum</string>
     <string name="title_activity_ashmolean_musuem">AshmoleanMusuem</string>
@@ -103,6 +105,24 @@
     <string name="Christ_Church_Link">www.chch.ox.ac.uk/</string>
     <string name="Christ_Church_Review">Review</string>
     <string name="Christ_Church_SignUp">Sign Up</string>
+    <string name="title_activity_maps_page">Map</string>
+
+    /Strings for Rating Page
+    <string name="RatingsTitle">Ratings</string>
+    <string name="ratingsplace1">ASHMOLEAN MUSUEM - Musuem of Art and Archaelogy</string>
+    <string name="ratingsplace2">CHRIST CHURCH - Literary heritage and a cathedral</string>
+    <string name="ratingsplace3">MAGDALEN COLLEGE - The Deer park and beautiful Cloisters</string>
+    <string name="ratingsrestaurant1">Oxford Kitchen</string>
+    <string name="ratingsrestaurant2">Cherwell Boathouse</string>
+    <string name="ratingsrestaurant3">No.1 Ship Street</string>
+    <string name="GoTo1">Click Here To see more</string>
+    <string name="GoTo2">Click Here To see more</string>
+    <string name="GoTo3">Click Here To see more</string>
+    <string name="GoTo4">Click Here To see more</string>
+    <string name="GoTo5">Click Here To see more</string>
+    <string name="GoTo6">Click Here To see more</string>
+
+    /Strings for Magdalen_College
     <string name="magdalen_college">Magdalen_College</string>
     <string name="magdalen_college_runs_regular_outreach_events_in_oxford_and_in_schools_these_are_run_for_state_maintained_schools_and_schools_with_a_high_proportion_of_students_from_groups_that_are_under_represented_at_oxford_our_events_are_primarily_for_schools_located_in_our_seven_link_regions_barnsley_brent_nottingham_nottinghamshire_rotherham_sheffield_and_westminster_if_you_are_not_based_in_one_of_these_regions_but_would_like_to_organise_an_outreach_event_with_the_university_of_oxford_then_please_find_your_link_college_here">magdalen_college_runs_regular_outreach_events_in_oxford_and_in_schools_these_are_run_for_state_maintained_schools_and_schools_with_a_high_proportion_of_students_from_groups_that_are_under_represented_at_oxford_our_events_are_primarily_for_schools_located_in_our_seven_link_regions_barnsley_brent_nottingham_nottinghamshire_rotherham_sheffield_and_westminster_if_you_are_not_based_in_one_of_these_regions_but_would_like_to_organise_an_outreach_event_with_the_university_of_oxford_then_please_find_your_link_college_here</string>
     <string name="contact_number_01865_276492_hours_10am_5pm_mon_sat_from_2pm_sun">contact_number_01865_276492_hours_10am_5pm_mon_sat_from_2pm_sun</string>
@@ -110,7 +130,32 @@
     <string name="magdalen_college_review">Magdalen_College_Review</string>
     <string name="magdalen_college_signup">Magdalen_College_SignUp</string>
 
-    /Strings for
+    /Strings for DataBase notes
+    <string name="new_user">Add User</string>
+    <string name="save">Save</string>
+    <string name="saved">User Saved</string>
+    <string name="not_saved">Couldn\'t Save</string>
+
+    /Strings for Signup page
+    <string name="first_name">First Name</string>
+    <string name="surname">Surname</string>
+    <string name="email_address">Email Address</string>
+    <string name="age">Age</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Signup</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="create_account">Create Account</string>
+
+    /String for Login page
+    <string name="login">Login</string>
 
 
 </resources>

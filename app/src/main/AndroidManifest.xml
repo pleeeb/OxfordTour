@@ -1,86 +1,101 @@
-<?xml version="1.0" encoding="utf-8"?><manifest xmlns:android="http://schemas.android.com/apk/res/android"
-xmlns:tools="http://schemas.android.com/tools"
-package="com.example.a18049192.oxfordtour">
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.a18049192.oxfordtour">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
-<application
-    android:allowBackup="true"
-    android:icon="@mipmap/ic_launcher"
-    android:label="@string/app_name"
-    android:roundIcon="@mipmap/ic_launcher_round"
-    android:supportsRtl="true"
-    android:theme="@style/AppTheme"
-    tools:ignore="GoogleAppIndexingWarning">
-    <activity
-        android:name=".No1ShipStreet"
-        android:label="Restaurants"
-        android:parentActivityName=".RestaurantsPage" />
-    <activity
-        android:name=".Cherwell_Boathouse"
-        android:label="Restaurants"
-        android:parentActivityName=".RestaurantsPage" />
-    <activity
-        android:name=".the_oxford_kitchen"
-        android:label="Restaurants"
-        android:parentActivityName=".RestaurantsPage" />
-    <activity
-        android:name=".RestaurantsPage"
-        android:label="Restaurants"
-        android:parentActivityName=".PlacesPageMenu" />
-    <activity
-        android:name=".PlacesPageMenu"
-        android:label="PlacesMenu"
-        android:parentActivityName=".MainPage" />
-    <activity
-        android:name=".MagdalenCollege"
-        android:label="PlacesMenu"
-        android:theme="@style/AppTheme.NoActionBar"/>
-    <activity
-        android:name=".AshmoleanMusuem"
-        android:label="Places"
-        android:parentActivityName=".PlacesPage" />
-    <activity
-        android:name=".ChristChurch"
-        android:label="Places"
-        android:parentActivityName=".PlacesPage" />
-    <activity
-        android:name=".PlacesPage"
-        android:label="Places"
-        android:parentActivityName=".PlacesPageMenu" />
-    <activity
-        android:name=".MainPage"
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme.NoActionBar" />
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Login"
+            android:parentActivityName=".MainPage"></activity>
 
-    <intent-filter>
-        <action android:name="android.intent.action.MAIN" />
+        <activity android:name=".Signup"
+            android:parentActivityName=".MainPage"
+            android:label=".Signup"/>
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
 
-        <category android:name="android.intent.category.LAUNCHER" />
-    </intent-filter>
+        <activity
+            android:name=".MapsPage"
+            android:label="@string/title_activity_maps_page"
+            android:parentActivityName=".MainPage">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.a18049192.oxfordtour.MainPage" />
+        </activity>
+        <activity
+            android:name=".No1ShipStreet"
+            android:label="Restaurants"
+            android:parentActivityName=".RestaurantsPage" />
+        <activity
+            android:name=".Cherwell_Boathouse"
+            android:label="Restaurants"
+            android:parentActivityName=".RestaurantsPage" />
+        <activity
+            android:name=".the_oxford_kitchen"
+            android:label="Restaurants"
+            android:parentActivityName=".RestaurantsPage" />
+        <activity
+            android:name=".RestaurantsPage"
+            android:label="Restaurants"
+            android:parentActivityName=".PlacesPageMenu" />
+        <activity
+            android:name=".PlacesPageMenu"
+            android:label="PlacesMenu"
+            android:parentActivityName=".MainPage" />
+        <activity
+            android:name=".AshmoleanMusuem"
+            android:label="Places"
+            android:parentActivityName=".PlacesPage" />
+        <activity
+            android:name=".ChristChurch"
+            android:label="Places"
+            android:parentActivityName=".PlacesPage" />
+        <activity
+            android:name=".PlacesPage"
+            android:label="Places"
+            android:parentActivityName=".PlacesPageMenu" />
+        <activity
+            android:name=".Ratings"
+            android:label="Ratings"
+            android:parentActivityName=".MainPage" />
+        <activity
+            android:name=".MagdalenCollege"
+            android:label="Magdalen"
+            android:parentActivityName=".PlacesPageMenu" />
+        <activity
+            android:name=".MainPage"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-    <activity
-        android:name=".EventsPage"
-        android:label="Spinner"
-        android:parentActivityName=".EventsPage" />
-    <activity
-        android:name=".EventsPage"
-        android:label="Spinner1"
-        android:parentActivityName=".EventsPage"
-        tools:ignore="DuplicateActivity" />
-    <activity
-        android:name=".EventsPage"
-        android:label="Spinner2"
-        android:parentActivityName=".MainPage"
-        tools:ignore="DuplicateActivity" />
-    <activity
-        android:name=".EventsPage"
-        android:label="Spinner3"
-        android:parentActivityName=".MainPage"
-        tools:ignore="DuplicateActivity" />
-    <activity
-        android:name=".EventsPage"
-        android:label="Spinner4"
-        android:parentActivityName=".MainPage"
-        tools:ignore="DuplicateActivity" />
-</application>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".EventsPage"
+            android:label="Events"
+            android:parentActivityName=".MainPage" />
+    </application>
 
 </manifest>
