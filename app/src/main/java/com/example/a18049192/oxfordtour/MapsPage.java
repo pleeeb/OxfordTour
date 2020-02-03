@@ -86,6 +86,7 @@ public class MapsPage extends FragmentActivity implements OnMapReadyCallback {
                 startActivity(homepage);
             }
         });
+
     }
 
 

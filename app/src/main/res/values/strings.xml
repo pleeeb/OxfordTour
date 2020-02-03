@@ -7,6 +7,8 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
     <string name="Local_Events">Events</string>
+    <string name="nav_signup">Signup/Login</string>
+
     /Places page Strings/
     <string name="Place1">Ashmolean Museum</string>
     <string name="title_activity_ashmolean_musuem">AshmoleanMusuem</string>
@@ -127,5 +129,33 @@
     <string name="www_magd_ox_ac_uk">www_magd_ox_ac_uk</string>
     <string name="magdalen_college_review">Magdalen_College_Review</string>
     <string name="magdalen_college_signup">Magdalen_College_SignUp</string>
+
+    /Strings for DataBase notes
+    <string name="new_user">Add User</string>
+    <string name="save">Save</string>
+    <string name="saved">User Saved</string>
+    <string name="not_saved">Couldn\'t Save</string>
+
+    /Strings for Signup page
+    <string name="first_name">First Name</string>
+    <string name="surname">Surname</string>
+    <string name="email_address">Email Address</string>
+    <string name="age">Age</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Signup</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="create_account">Create Account</string>
+
+    /String for Login page
+    <string name="login">Login</string>
+
 
 </resources>
