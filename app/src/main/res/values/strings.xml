@@ -9,6 +9,21 @@
     <string name="Local_Events">Events</string>
     <string name="nav_signup">Signup/Login</string>
 
+    /Personal Info Page Strings/
+    <string name="Personal_Info_Page">Personal Information</string>
+    <string name="User_Firstname_Header">Firstname</string>
+    <string name="User_Lastname_Header">Lastname</string>
+    <string name="User_Age_Header">Age</string>
+    <string name="User_Email_Header">Email</string>
+    <string name="Edit_Personal_Info">Edit Personal Information</string>
+
+    /Edit Personal Info Page Strings/
+    <string name="Edit_Firstname_Hint">Edit Firstname</string>
+    <string name="Edit_Lastname_Hint">Edit Lastname</string>
+    <string name="Edit_Age_Hint">Edit Age</string>
+    <string name="Edit_Email_Hint">Update Your Email</string>
+    <string name="Save_Details">Save Details</string>
+
     /Places page Strings/
     <string name="Place1">Ashmolean Museum</string>
     <string name="title_activity_ashmolean_musuem">AshmoleanMusuem</string>

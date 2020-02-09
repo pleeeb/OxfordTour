@@ -22,6 +22,13 @@
         <activity android:name=".Signup"
             android:parentActivityName=".MainPage"
             android:label=".Signup"/>
+
+        <activity android:name=".PersonalInformationPage"
+            android:parentActivityName=".MainPage"
+            android:label="Personal Info"/>
+        <activity android:name=".PersonalInformationEditPage"
+            android:parentActivityName=".PersonalInformationPage"
+            android:label="Personal Info"/>
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").

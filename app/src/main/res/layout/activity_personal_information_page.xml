@@ -14,119 +14,116 @@
         android:clickable="false"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="@string/Info_Title"
+        android:text="@string/Personal_Info_Page"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/FirstNamePrompt"
+        android:id="@+id/FirstNameHeader"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="13dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="@string/User_Firstname_Field"
+        android:text="@string/User_Firstname_Header"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Info_Title" />
+        app:layout_constraintTop_toBottomOf="@+id/Info_Title"
+        android:autofillHints="" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/User_Firstname_Display"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="7dp"
-        android:text="FirstnamePlaceholder"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/FirstNamePrompt" />
+        app:layout_constraintTop_toBottomOf="@+id/FirstNameHeader" />
 
     <EditText
-        android:id="@+id/LastnamePrompt"
+        android:id="@+id/LastnameHeader"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="9dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="@string/User_Lastname_Field"
+        android:text="@string/User_Lastname_Header"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+        app:layout_constraintTop_toBottomOf="@+id/User_Firstname_Display" />
 
     <TextView
-        android:id="@+id/textView7"
+        android:id="@+id/User_Lastname_Display"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="9dp"
-        android:text="LastnamePlaceholder"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/LastnamePrompt" />
+        app:layout_constraintTop_toBottomOf="@+id/LastnameHeader" />
 
     <EditText
-        android:id="@+id/AgePrompt"
+        android:id="@+id/AgeHeader"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="@string/User_Age_Field"
+        android:text="@string/User_Age_Header"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+        app:layout_constraintTop_toBottomOf="@+id/User_Lastname_Display" />
 
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/User_Age_Display"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="9dp"
-        android:text="AgePlaceholder"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/AgePrompt" />
+        app:layout_constraintTop_toBottomOf="@+id/AgeHeader" />
 
     <EditText
-        android:id="@+id/EmailPrompt"
+        android:id="@+id/EmailHeader"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="@string/User_Email_Field"
+        android:text="@string/User_Email_Header"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+        app:layout_constraintTop_toBottomOf="@+id/User_Age_Display" />
 
     <EditText
-        android:id="@+id/editText13"
+        android:id="@+id/User_Email_Display"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:ems="10"
         android:inputType="textEmailAddress"
-        android:text="EmailPlaceholder"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/EmailPrompt" />
+        app:layout_constraintTop_toBottomOf="@+id/EmailHeader" />
 
     <Button
         android:id="@+id/DetailsEditTransportButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="58dp"
-        android:text="Edit Personal Details"
+        android:text="@string/Edit_Personal_Info"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText13" />
+        app:layout_constraintTop_toBottomOf="@+id/User_Email_Display" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
