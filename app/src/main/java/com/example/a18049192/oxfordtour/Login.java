@@ -42,7 +42,6 @@ public class Login extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 j=0;
-                MainPage.setLoggedin(true);
                 emailEntered = editText.getText().toString();
                 passwordEntered = passText.getText().toString();
                 for (User i : MainPage.allUsers){
