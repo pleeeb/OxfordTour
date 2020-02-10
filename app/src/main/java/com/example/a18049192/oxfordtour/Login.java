@@ -10,8 +10,11 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import java.util.UUID;
+
 public class Login extends AppCompatActivity {
 
+    private static final int SIGNUP_REQUEST_CODE = 1;
     static public String emailEntered;
     static public String passwordEntered;
     private EditText editText;
@@ -33,9 +36,11 @@ public class Login extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent signupPage = new Intent(v.getContext(), Signup.class);
-                startActivityForResult(signupPage, MainPage.getSignupRequestCode());
+                startActivityForResult(signupPage, Login.getSignupRequestCode());
             }
         });
+
+
 
         final Button login = findViewById(R.id.loginButton);
         login.setOnClickListener(new View.OnClickListener(){
@@ -80,6 +85,30 @@ public class Login extends AppCompatActivity {
                 }
             }
         });
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data){
+        super.onActivityResult(requestCode, resultCode, data);
+
+        if (requestCode == SIGNUP_REQUEST_CODE && resultCode == RESULT_OK){
+
+            //Code to insert user
+            final String user_id = UUID.randomUUID().toString();
+            User user = new User(user_id, data.getStringExtra(Signup.USER_ADDED),
+                    Signup.surname, Signup.email, Signup.age, Signup.password);
+            MainPage.userViewModel.insert(user);
+
+            Toast.makeText(getApplicationContext(),R.string.saved,Toast.LENGTH_LONG).show();
+            finish();
+        }
+        else {
+            Toast.makeText(getApplicationContext(),R.string.not_saved, Toast.LENGTH_LONG).show();
+        }
+    }
+
+    public static int getSignupRequestCode(){
+        return SIGNUP_REQUEST_CODE;
     }
 
 }
