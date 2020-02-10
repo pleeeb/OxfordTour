@@ -107,20 +107,7 @@
     <string name="Christ_Church_SignUp">Sign Up</string>
     <string name="title_activity_maps_page">Map</string>
 
-    /Strings for Rating Page
-    <string name="RatingsTitle">Ratings</string>
-    <string name="ratingsplace1">ASHMOLEAN MUSUEM - Musuem of Art and Archaelogy</string>
-    <string name="ratingsplace2">CHRIST CHURCH - Literary heritage and a cathedral</string>
-    <string name="ratingsplace3">MAGDALEN COLLEGE - The Deer park and beautiful Cloisters</string>
-    <string name="ratingsrestaurant1">Oxford Kitchen</string>
-    <string name="ratingsrestaurant2">Cherwell Boathouse</string>
-    <string name="ratingsrestaurant3">No.1 Ship Street</string>
-    <string name="GoTo1">Click Here To see more</string>
-    <string name="GoTo2">Click Here To see more</string>
-    <string name="GoTo3">Click Here To see more</string>
-    <string name="GoTo4">Click Here To see more</string>
-    <string name="GoTo5">Click Here To see more</string>
-    <string name="GoTo6">Click Here To see more</string>
+
 
     /Strings for Magdalen_College
     <string name="magdalen_college">Magdalen_College</string>
@@ -156,6 +143,11 @@
 
     /String for Login page
     <string name="login">Login</string>
+
+    /String for Rating Bar
+    <string name="ChristChurchSubmit">Submit</string>
+    <string name="MagdalenSubmit">Submit</string>
+    <string name="AshmoleanSubmit">Submit</string>
 
 
 </resources>

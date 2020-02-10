@@ -3,11 +3,10 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
 
     tools:context=".ChristChurch"
     >
@@ -37,8 +36,9 @@
         android:layout_marginRight="18dp"
         android:text="@string/About_Christ_Church"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Christ_Church_Review" />
+        app:layout_constraintTop_toBottomOf="@+id/image_Christ_Church" />
 
     <TextView
         android:id="@+id/TitleOfDetails"
@@ -77,6 +77,7 @@
         android:autoLink="web"
         android:clickable="true"
 
+        android:focusableInTouchMode="true"
         android:focusable="auto"
         android:text="@string/Christ_Church_Link"
         app:layout_constraintEnd_toEndOf="parent"
@@ -92,23 +93,15 @@
         android:layout_marginEnd="7dp"
         android:layout_marginRight="7dp"
         android:contentDescription="@drawable/_christ_church"
-        app:layout_constraintBottom_toTopOf="@+id/Christ_Church_Review"
+
+        app:layout_constraintBottom_toTopOf="@+id/AboutChristChurch"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/TitleOfChristChurch"
         app:srcCompat="@drawable/_christ_church" />
 
-    <Button
-        android:id="@+id/Christ_Church_Review"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="323dp"
-        android:layout_marginRight="323dp"
-        android:text="@string/Christ_Church_Review"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/image_Christ_Church" />
+
 
     <Button
         android:id="@+id/Magdalen_College_SignUp"
@@ -124,6 +117,31 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/WebsiteChristChurch"
         app:layout_constraintVertical_bias="0.0" />
+
+    <RatingBar
+        android:id="@+id/ChristChurchRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginEnd="162dp"
+        android:layout_marginRight="162dp"
+        android:numStars="5"
+        android:stepSize=".5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Christ_Church_SignUp" />
+
+    <Button
+        android:id="@+id/ChristChurchSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="323dp"
+        android:layout_marginRight="323dp"
+        android:text="@string/ChristChurchSubmit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ChristChurchRating" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
