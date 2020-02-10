@@ -16,6 +16,7 @@
     <string name="User_Age_Header">Age</string>
     <string name="User_Email_Header">Email</string>
     <string name="Edit_Personal_Info">Edit Personal Information</string>
+    <string name="User_Password_Header">Password(*)</string>
 
     /Edit Personal Info Page Strings/
     <string name="Edit_Firstname_Hint">Edit Firstname</string>
@@ -23,6 +24,7 @@
     <string name="Edit_Age_Hint">Edit Age</string>
     <string name="Edit_Email_Hint">Update Your Email</string>
     <string name="Save_Details">Save Details</string>
+    <string name="Edit_Password_Hint">Edit Password(*)</string>
 
     /Places page Strings/
     <string name="Place1">Ashmolean Museum</string>

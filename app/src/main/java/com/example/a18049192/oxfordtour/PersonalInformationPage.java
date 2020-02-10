@@ -6,8 +6,14 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class PersonalInformationPage extends AppCompatActivity {
+    TextView firstname = findViewById(R.id.User_Firstname_Display);
+    TextView lastname = findViewById(R.id.User_Lastname_Display);
+    TextView age = findViewById(R.id.User_Age_Display);
+    TextView email = findViewById(R.id.User_Email_Display);
+    TextView password = findViewById(R.id.User_Password_Display);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,5 +29,10 @@ public class PersonalInformationPage extends AppCompatActivity {
                 startActivity(PersonalInformationEditPage);
             }
         });
+        firstname.setText(Signup.firstname);
+        lastname.setText(Signup.surname);
+        age.setText(Signup.age);
+        email.setText(Signup.email);
+        password.setText(Signup.password);
     }
 }
