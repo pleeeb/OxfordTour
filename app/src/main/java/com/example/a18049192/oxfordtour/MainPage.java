@@ -28,7 +28,6 @@ import java.util.UUID;
 public class MainPage extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
-    private static final int SIGNUP_REQUEST_CODE = 1;
     public static UserViewModel userViewModel;
     private static boolean loggedin = false;
     public static List<User> allUsers;
@@ -73,25 +72,6 @@ public class MainPage extends AppCompatActivity
         navigationView.setNavigationItemSelectedListener(this);
 
 
-    }
-
-    @Override
-    protected void onActivityResult(int requestCode, int resultCode, Intent data){
-        super.onActivityResult(requestCode, resultCode, data);
-
-        if (requestCode == SIGNUP_REQUEST_CODE && resultCode == RESULT_OK){
-
-            //Code to insert user
-            final String user_id = UUID.randomUUID().toString();
-            User user = new User(user_id, data.getStringExtra(Signup.USER_ADDED),
-                    Signup.surname, Signup.email, Signup.age, Signup.password);
-            userViewModel.insert(user);
-
-            Toast.makeText(getApplicationContext(),R.string.saved,Toast.LENGTH_LONG).show();
-        }
-        else {
-            Toast.makeText(getApplicationContext(),R.string.not_saved, Toast.LENGTH_LONG).show();
-        }
     }
 
 
@@ -169,10 +149,5 @@ public class MainPage extends AppCompatActivity
 
     public static void setLoggedin(boolean log){loggedin = log; }
 
-
-
-    public static int getSignupRequestCode(){
-        return SIGNUP_REQUEST_CODE;
-    }
 }
 
