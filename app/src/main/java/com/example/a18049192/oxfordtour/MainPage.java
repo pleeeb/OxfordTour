@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -29,8 +30,10 @@ public class MainPage extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     public static UserViewModel userViewModel;
+    public static TGModelView tgModelView;
     private static boolean loggedin = false;
     public static List<User> allUsers;
+    public static List<TG> allTG;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,6 +55,14 @@ public class MainPage extends AppCompatActivity
             @Override
             public void onChanged(List<User> users) {
                 allUsers = users;
+            }
+        });
+
+        tgModelView = ViewModelProviders.of(this).get(TGModelView.class);
+        tgModelView.TGInfo().observe(this, new Observer<List<TG>>() {
+            @Override
+            public void onChanged(List<TG> tgs) {
+                allTG = tgs;
             }
         });
 
@@ -102,6 +113,16 @@ public class MainPage extends AppCompatActivity
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
             return true;
+        }
+        else if(id==R.id.log_out){
+            loggedin=false;
+            Signup.firstname="";
+            Signup.surname="";
+            Signup.email="";
+            Signup.age="";
+            Signup.password="";
+            Signup.isTG=false;
+            recreate();
         }
 
         return super.onOptionsItemSelected(item);

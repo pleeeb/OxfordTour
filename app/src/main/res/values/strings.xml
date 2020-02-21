@@ -170,6 +170,7 @@
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
     <string name="create_account">Create Account</string>
+    <string name="tg_box">Tour Guide Account</string>
 
     /String for Login page
     <string name="login">Login</string>

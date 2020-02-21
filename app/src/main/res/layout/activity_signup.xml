@@ -90,4 +90,15 @@
         app:layout_constraintStart_toStartOf="@+id/ageText"
         app:layout_constraintTop_toBottomOf="@+id/ageText" />
 
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="65dp"
+        android:layout_marginLeft="65dp"
+        android:text="@string/tg_box"
+        app:layout_constraintBottom_toTopOf="@+id/firstNameText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SignupTitle" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
