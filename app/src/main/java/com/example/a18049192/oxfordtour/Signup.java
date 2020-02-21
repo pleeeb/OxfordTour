@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CheckBox;
+import android.widget.CompoundButton;
 import android.widget.EditText;
 
 public class Signup extends AppCompatActivity {
@@ -24,6 +26,7 @@ public class Signup extends AppCompatActivity {
     public static String email;
     public static String age;
     public static String password;
+    public static boolean isTG = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,6 +38,13 @@ public class Signup extends AppCompatActivity {
         ageNewUser = findViewById(R.id.ageText);
         passwordNewUser = findViewById(R.id.passwordText);
 
+        CheckBox tgCheckbox = findViewById(R.id.checkBox);
+        tgCheckbox.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                isTG=!isTG;
+            }
+        });
 
         Button button = findViewById(R.id.SaveButton);
         button.setOnClickListener(new View.OnClickListener(){

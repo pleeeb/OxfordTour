@@ -9,16 +9,22 @@ import android.widget.Button;
 import android.widget.TextView;
 
 public class PersonalInformationPage extends AppCompatActivity {
-    TextView firstname = findViewById(R.id.User_Firstname_Display);
-    TextView lastname = findViewById(R.id.User_Lastname_Display);
-    TextView age = findViewById(R.id.User_Age_Display);
-    TextView email = findViewById(R.id.User_Email_Display);
-    TextView password = findViewById(R.id.User_Password_Display);
+    TextView firstname;
+    TextView lastname;
+    TextView age;
+    TextView email;
+    TextView password;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_personal_information_page);
+
+        firstname = findViewById(R.id.User_Firstname_Display);
+        lastname = findViewById(R.id.User_Lastname_Display);
+        age = findViewById(R.id.User_Age_Display);
+        email = findViewById(R.id.User_Email_Display);
+        password = findViewById(R.id.User_Password_Display);
 
         Button Transport_Button = findViewById(R.id.DetailsEditTransportButton);
         Transport_Button.setOnClickListener(new View.OnClickListener() {
