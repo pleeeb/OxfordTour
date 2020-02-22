@@ -148,7 +148,14 @@ public class MainPage extends AppCompatActivity
             startActivity(intent);
         } else if (id == R.id.nav_signup) {
             if (loggedin){
-                //Insert code to link to account page.
+                if (Signup.isTG){
+                    Intent intentTG = new Intent(this, TourguidePersonalInformationPage.class);
+                    startActivity(intentTG);
+                }
+                else {
+                    Intent intent = new Intent(this, PersonalInformationPage.class);
+                    startActivity(intent);
+                }
             }
             else {
                 Intent intent = new Intent(this, Login.class);

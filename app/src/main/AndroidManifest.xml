@@ -16,19 +16,29 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Login"
-            android:parentActivityName=".MainPage"></activity>
-
-        <activity android:name=".Signup"
-            android:parentActivityName=".MainPage"
-            android:label=".Signup"/>
-
-        <activity android:name=".PersonalInformationPage"
-            android:parentActivityName=".MainPage"
-            android:label="Personal Info"/>
-        <activity android:name=".PersonalInformationEditPage"
-            android:parentActivityName=".PersonalInformationPage"
-            android:label="Personal Info"/>
+        <activity
+            android:name=".Login"
+            android:parentActivityName=".MainPage" />
+        <activity
+            android:name=".Signup"
+            android:label=".Signup"
+            android:parentActivityName=".MainPage" />
+        <activity
+            android:name=".PersonalInformationPage"
+            android:label="Personal Info"
+            android:parentActivityName=".MainPage" />
+        <activity
+            android:name=".TourguidePersonalInformationPage"
+            android:label="Personal Info"
+            android:parentActivityName=".MainPage" />
+        <activity
+            android:name=".PersonalInformationEditPage"
+            android:label="Personal Info"
+            android:parentActivityName=".PersonalInformationPage" />
+        <activity
+            android:name=".TourguidePersonalInformationEditPage"
+            android:label="Personal Info"
+            android:parentActivityName=".PersonalInformationPage" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").

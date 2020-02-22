@@ -26,6 +26,10 @@
     <string name="Save_Details">Save Details</string>
     <string name="Edit_Password_Hint">Edit Password(*)</string>
 
+    /Tourguide Info page/
+    <string name="Professional_Info_Page">Professional Information</string>
+    <string name="Edit_Professional_Info">Edit Professional Information</string>
+
     /Places page Strings/
     <string name="Place1">Ashmolean Museum</string>
     <string name="title_activity_ashmolean_musuem">AshmoleanMusuem</string>
