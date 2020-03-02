@@ -59,6 +59,7 @@ public class UserViewModel extends AndroidViewModel {
             }
             else{
                 mUserDao.update(users[0]);
+                update=false;
             }
             return null;
         }
