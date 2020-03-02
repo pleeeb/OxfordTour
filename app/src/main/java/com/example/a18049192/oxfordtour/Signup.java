@@ -21,6 +21,7 @@ public class Signup extends AppCompatActivity {
     private EditText ageNewUser;
     private EditText passwordNewUser;
 
+    public static String id;
     public static String firstname;
     public static String surname;
     public static String email;
