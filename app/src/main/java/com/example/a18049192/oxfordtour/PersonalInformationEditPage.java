@@ -34,6 +34,11 @@ public class PersonalInformationEditPage extends AppCompatActivity {
                 Signup.age = age.getText().toString();
                 Signup.email = email.getText().toString();
                 Signup.password = password.getText().toString();
+                UserViewModel.update = true;
+                User amended = new User(Signup.id,Signup.firstname,Signup.surname,
+                        Signup.email, Signup.age, Signup.password);
+                MainPage.userViewModel.update(amended);
+                UserViewModel.update = false;
                 finish();
             }
         });

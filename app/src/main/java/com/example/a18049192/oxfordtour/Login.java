@@ -130,6 +130,7 @@ public class Login extends AppCompatActivity {
             //Check password entered against database password
             if (passwordEntered.equals(MainPage.allUsers.get(j).getPassword())) {
                 //Assign database values for logged in user into static public variables.
+                Signup.id = MainPage.allUsers.get(j).getId();
                 Signup.firstname = MainPage.allUsers.get(j).getFirstname();
                 Signup.surname = MainPage.allUsers.get(j).getSurname();
                 Signup.email = MainPage.allUsers.get(j).getEmail();
@@ -154,6 +155,7 @@ public class Login extends AppCompatActivity {
             //Check password entered against database password
             if (passwordEntered.equals(t.get(j).getPassword())) {
                 //Assign database values for logged in user into static public variables.
+                Signup.id = t.get(j).getId();
                 Signup.firstname = t.get(j).getFirstname();
                 Signup.surname = t.get(j).getSurname();
                 Signup.email = t.get(j).getEmail();

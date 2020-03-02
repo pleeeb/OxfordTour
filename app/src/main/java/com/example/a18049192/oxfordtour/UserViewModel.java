@@ -16,6 +16,7 @@ public class UserViewModel extends AndroidViewModel {
     public static UserDao userDao;
     private Database userDB;
     public static LiveData<List<User>> currentUser;
+    public static boolean update = false;
 
     public UserViewModel(Application application){
         super(application);
@@ -29,9 +30,12 @@ public class UserViewModel extends AndroidViewModel {
         new InsertAsyncTask(userDao).execute(user);
     }
 
+    public void update(User user){new InsertAsyncTask(userDao).execute(user);}
+
     LiveData<List<User>> userInfo(){
         return currentUser;
     }
+
 
     @Override
     protected void onCleared(){
@@ -49,7 +53,13 @@ public class UserViewModel extends AndroidViewModel {
 
         @Override
         protected Void doInBackground(User... users) {
-            mUserDao.insert(users[0]);
+            if (!update) {
+                mUserDao.insert(users[0]);
+                return null;
+            }
+            else{
+                mUserDao.update(users[0]);
+            }
             return null;
         }
     }
