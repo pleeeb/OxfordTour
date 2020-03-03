@@ -10,10 +10,12 @@ import androidx.lifecycle.LiveData;
 import java.util.List;
 
 public class TGModelView extends AndroidViewModel {
+
     private String TAG = this.getClass().getSimpleName();
     public static TGDao tgDao;
     private Database userDB;
     public static LiveData<List<TG>> currentTGUser;
+    public static boolean update = false;
 
     public TGModelView(Application application){
         super(application);
@@ -26,6 +28,8 @@ public class TGModelView extends AndroidViewModel {
     public void insert(TG tg){
         new TGModelView.InsertAsyncTask(tgDao).execute(tg);
     }
+
+    public void update(TG tg){new InsertAsyncTask(tgDao).execute(tg);}
 
     LiveData<List<TG>> TGInfo(){
         return currentTGUser;
@@ -46,8 +50,15 @@ public class TGModelView extends AndroidViewModel {
         }
 
         @Override
-        protected Void doInBackground(TG... tgs) {
-            mTGDao.insert(tgs[0]);
+        protected Void doInBackground(TG... TGs) {
+            if (!update) {
+                mTGDao.insert(TGs[0]);
+                return null;
+            }
+            else{
+                mTGDao.update(TGs[0]);
+                update=false;
+            }
             return null;
         }
     }

@@ -36,6 +36,11 @@ public class TourguidePersonalInformationEditPage extends AppCompatActivity {
                     Signup.age = age.getText().toString();
                     Signup.email = email.getText().toString();
                     Signup.password = password.getText().toString();
+                    TGModelView.update = true;
+                    TG amended = new TG(Signup.id,Signup.firstname,Signup.surname,
+                            Signup.email, Signup.age, Signup.password);
+                    MainPage.tgModelView.update(amended);
+                    TGModelView.update = false;
                     finish();
                 }
             });
