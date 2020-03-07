@@ -147,20 +147,23 @@ public class MainPage extends AppCompatActivity
             Intent intent = new Intent(this, Ratings.class);
             startActivity(intent);
         } else if (id == R.id.nav_signup) {
-            if (loggedin){
-                if (Signup.isTG){
+            if (loggedin) {
+                if (Signup.isTG) {
                     Intent intentTG = new Intent(this, TourguidePersonalInformationPage.class);
                     startActivity(intentTG);
-                }
-                else {
+                } else {
                     Intent intent = new Intent(this, PersonalInformationPage.class);
                     startActivity(intent);
                 }
-            }
-            else {
+            } else {
                 Intent intent = new Intent(this, Login.class);
                 startActivity(intent);
             }
+        }
+        else if(id == R.id.nav_Forum){
+            Intent intent = new Intent(this, ForumPage.class);
+            startActivity(intent);
+
 
         /*} else if (id == R.id.nav_share) {
 
