@@ -20,7 +20,7 @@ public class TourguidePersonalInformationEditPage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tourguide_personal_information_edit_page);
 
-        if (Signup.isTG) {
+        if (Login.isTGbox) {
             firstname = findViewById(R.id.EditFirstname);
             lastname = findViewById(R.id.EditLastname);
             age = findViewById(R.id.EditAge);
@@ -36,6 +36,10 @@ public class TourguidePersonalInformationEditPage extends AppCompatActivity {
                     Signup.age = age.getText().toString();
                     Signup.email = email.getText().toString();
                     Signup.password = password.getText().toString();
+                    TGModelView.update = true;
+                    TG amended = new TG(Signup.id,Signup.firstname,Signup.surname,
+                            Signup.email, Signup.age, Signup.password);
+                    MainPage.tgModelView.update(amended);
                     finish();
                 }
             });

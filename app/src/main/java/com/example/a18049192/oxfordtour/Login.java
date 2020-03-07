@@ -23,7 +23,7 @@ public class Login extends AppCompatActivity {
     private  EditText passText;
     private boolean userFound;
     private static int j = 0;
-    private boolean isTGbox = false;
+    public static boolean isTGbox = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -163,6 +163,7 @@ public class Login extends AppCompatActivity {
                 Signup.password = t.get(j).getPassword();
                 //Set user to logged in
                 MainPage.setLoggedin(true);
+                System.out.println(isTGbox);
                 //Send message to screen
                 Toast.makeText(getApplicationContext(),"Logged in as "+Signup.email, Toast.LENGTH_LONG).show();
             }
