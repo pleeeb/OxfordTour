@@ -22,7 +22,7 @@ public class TourguidePersonalInformationPage extends AppCompatActivity {
             super.onCreate(savedInstanceState);
             setContentView(R.layout.activity_tourguide_personal_information_page);
 
-            if (Signup.isTG) {
+            if (Login.isTGbox) {
                 firstname = findViewById(R.id.User_Firstname_Display);
                 lastname = findViewById(R.id.User_Lastname_Display);
                 age = findViewById(R.id.User_Age_Display);

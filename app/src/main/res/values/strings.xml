@@ -178,6 +178,27 @@
 
     /String for Login page
     <string name="login">Login</string>
+    <string name="title_activity_faqpage">FAQPage</string>
+    <string name="large_text">
+
+        1. How do I leave a review?\n\n
+
+        On the main page, click on the navigation bar on the left and then visit a location or
+        restaurant from the locations menu to leave a review.\n\n
+
+        2. How do I create an account?\n\n
+
+        From the main page, click on the navigation bar and then select Login/Signup. From the
+        bottom of this page there is an option for Signup. Once clicked it will take you to
+        the signup page where the details will need to be filled out and then if you are
+        creating a tourguide account the checkbox will need to be clicked. Once done you will
+        be able to sign in with your Email address and password.\n\n
+
+        3. Can I message other users who use the app?\n\n
+
+        Currently this feature is not implemented within the app. In the future we are looking
+        to add this feature.
+    </string>
 
 
 </resources>

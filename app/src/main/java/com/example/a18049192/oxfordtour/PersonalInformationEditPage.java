@@ -8,6 +8,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
+import java.util.concurrent.Executor;
+import java.util.concurrent.Executors;
+
 public class PersonalInformationEditPage extends AppCompatActivity {
     EditText firstname;
     EditText lastname;
@@ -38,9 +41,9 @@ public class PersonalInformationEditPage extends AppCompatActivity {
                 User amended = new User(Signup.id,Signup.firstname,Signup.surname,
                         Signup.email, Signup.age, Signup.password);
                 MainPage.userViewModel.update(amended);
-                UserViewModel.update = false;
                 finish();
             }
         });
     }
+
 }

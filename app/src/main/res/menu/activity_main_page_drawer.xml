@@ -26,6 +26,10 @@
             android:id="@+id/nav_ratings"
             android:icon="@drawable/ic_menu_manage"
             android:title="Ratings" />
+        <item
+            android:id="@+id/nav_Forum"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Forums"/>
     </group>
 
     <!--<item android:title="Communicate">

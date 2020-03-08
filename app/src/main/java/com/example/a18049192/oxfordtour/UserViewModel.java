@@ -14,7 +14,7 @@ public class UserViewModel extends AndroidViewModel {
 
     private String TAG = this.getClass().getSimpleName();
     public static UserDao userDao;
-    private Database userDB;
+    public static Database userDB;
     public static LiveData<List<User>> currentUser;
     public static boolean update = false;
 
@@ -43,23 +43,22 @@ public class UserViewModel extends AndroidViewModel {
         Log.i(TAG, "ViewModel Destroyed");
     }
 
-    private class InsertAsyncTask extends AsyncTask<User,Void,Void>{
+    private class InsertAsyncTask extends AsyncTask<User,Void,Void> {
 
         UserDao mUserDao;
 
-        public InsertAsyncTask(UserDao mUserDao){
+        public InsertAsyncTask(UserDao mUserDao) {
             this.mUserDao = mUserDao;
         }
 
         @Override
         protected Void doInBackground(User... users) {
-            if (!update) {
+            if (UserViewModel.update==false){
                 mUserDao.insert(users[0]);
-                return null;
-            }
+                return null;}
             else{
                 mUserDao.update(users[0]);
-                update=false;
+                UserViewModel.update=false;
             }
             return null;
         }
