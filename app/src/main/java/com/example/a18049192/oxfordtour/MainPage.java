@@ -23,6 +23,7 @@ import androidx.lifecycle.ViewModelProviders;
 import androidx.room.Entity;
 
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
@@ -34,6 +35,11 @@ public class MainPage extends AppCompatActivity
     private static boolean loggedin = false;
     public static List<User> allUsers;
     public static List<TG> allTG;
+    public static ArrayList<String> obcSignup = new ArrayList<>();
+    public static ArrayList<String> bfSignup = new ArrayList<>();
+    public static ArrayList<String> olfSignup = new ArrayList<>();
+    public static ArrayList<String> miSignup = new ArrayList<>();
+    public static ArrayList<String> wwrySignup = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -179,6 +185,7 @@ public class MainPage extends AppCompatActivity
         }
 
     public static void setLoggedin(boolean log){loggedin = log; }
+    public static boolean getLoggedin(){return loggedin;}
 
 }
 

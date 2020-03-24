@@ -29,6 +29,7 @@ import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.location.FusedLocationProviderClient;
@@ -37,6 +38,7 @@ import com.google.android.gms.tasks.Task;
 import com.google.android.gms.location.LocationRequest;
 import androidx.appcompat.widget.Toolbar;
 
+import java.util.ArrayList;
 
 
 public class MapsPage extends FragmentActivity implements OnMapReadyCallback {
@@ -125,11 +127,46 @@ public class MapsPage extends FragmentActivity implements OnMapReadyCallback {
 
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
+        MarkerOptions Option = new MarkerOptions();
+        ArrayList<LatLng> latlangs = new ArrayList<>();
 
-        // Add a marker in Sydney and move the camera
+        latlangs.add(new LatLng(51.76619, -1.258715));
+
+        for(int i=0; i<latlangs.size(); i++){
+            Option.position(latlangs.get(i));
+        }
+        for (LatLng point : latlangs){
+            Option.position(point);
+            Option.title("Cherwell Boathouse");
+            Option.snippet("Restaurant");
+            googleMap.addMarker(Option);
+        }
+
+        latlangs.add(new LatLng(51.7767246,-1.2648962));
+
+        for (LatLng point : latlangs){
+            Option.position(point);
+            Option.title("The Oxford Kitchen");
+            Option.snippet("Restaurant");
+            googleMap.addMarker(Option);
+        }
+
+        latlangs.add(new LatLng(51.7537098,-1.2580163));
+
+        for (LatLng point : latlangs){
+            Option.position(point);
+            Option.title("No.1 Ship Street");
+            Option.snippet("Restaurant");
+            googleMap.addMarker(Option);
+        }
+
         LatLng userloc = new LatLng(latTextView,lonTextView);
-        mMap.addMarker(new MarkerOptions().position(userloc).title(String.valueOf(latTextView)));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(userloc));
+
+        mMap.addMarker(new MarkerOptions().position(userloc).title("Current Location")
+                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE)));
+
+        float zoomLevel = 14.0f;
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(userloc,zoomLevel));
     }
 
 
