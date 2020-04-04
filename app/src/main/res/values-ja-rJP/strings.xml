@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">オックスフォードツアー</string>
+    <string name="navigation_drawer_open">ナビゲーションドロワーを開ける</string>
+    <string name="navigation_drawer_close">ナビゲーションドロワー閉じる</string>
+    <string name="nav_header_title">アンドロイドスタジオ</string>
+    <string name="nav_header_desc">ナビゲーションヘダ</string>
+    <string name="action_settings">設定</string>
+    <string name="Local_Events">エベント</string>
+    <string name="nav_signup">サインアップ・ログイン</string>
+    <string name="Personal_Info_Page">自己情報</string>
+    <string name="User_Lastname_Header">名字</string>
+    <string name="User_Firstname_Header">名前</string>
+    <string name="User_Age_Header">裁</string>
+    <string name="User_Email_Header">年齢</string>
+    <string name="Edit_Personal_Info">自己情報をエディット</string>
+    <string name="User_Password_Header">パスワード</string>
+    <string name="Edit_Firstname_Hint">名前をエディット</string>
+    <string name="Edit_Lastname_Hint">名字をエディット</string>
+    <string name="Edit_Age_Hint">年齢をエディット</string>
+    <string name="Edit_Email_Hint">メールアドレスをエディット</string>
+    <string name="Edit_Password_Hint">パスワードをエディット（＊）</string>
+    <string name="Save_Details">セーブ</string>
+    <string name="Professional_Info_Page">職業的な情報</string>
+    <string name="Edit_Professional_Info">職業的な情報をエディット</string>
+    <string name="Place1">アシュモレアン博物館</string>
+    <string name="title_activity_ashmolean_musuem">アシュモレアン博物館</string>
+    <string name="Place2">クライストチャーチ</string>
+    <string name="Place3">マグダレンカレッジ</string>
+    <string name="Restaurants_Button">色んななレストラン</string>
+    <string name="Oxford_Kitchen_Button">オクスフォードキチン</string>
+    <string name="Landmarks_Button">色んなランドマーク</string>
+    <string name="Cherwell_Boathouse_Button">シェアルェル・ボートハウス</string>
+    <string name="No1_Ship_Street_Button">１．シップ・ストリート</string>
+    <string name="Website_Oxford_Kitchen">ウェブサイト：<a href="oxford_kitchen_website">http://www.theoxfordkitchen.co.uk</a></string>
+    <string name="Address_Oxford_Kitchen">アドレス：215 Banbury Road, Oxford OX2 7HQ England</string>
+    <string name="Hours_Oxford_Kitchen">営業時間：火曜日 - 土曜日 12:00 - 14:30 と18:00 - 23:00</string>
+    <string name="Oxford_Literary_Festival">オクスフォード文祭</string>
+    <string name="Address_Cherwell_Boathouse">アドレス：50 Bardwell Road, Oxford, England, OX2 6ST, United Kingdom</string>
+    <string name="Hours_Cherwell_Boathouse">営業時間：午後12.30-15:00 午後18.30-21.30</string>
+    <string name="Website_Cherwell_Boathouse">ウェブサイト：<a href="cherwell_boathouse_website">http://cherwellboathouse.co.uk/</a></string>
+    <string name="Address_No1_ShipStreet">アドレス：50 Bardwell Road, Oxford, England, OX2 6ST, United Kingdom</string>
+    <string name="Hours_No1_ShipStreet">営業時間： 日曜日12:00 - 15:30・ 月曜日 - 土曜日12:00 - 23:00</string>
+    <string name="Website_No1_ShipStreet">ウェブサイト： <a href="shipstreet_website">https://www.no1shipstreet.com/</a></string>
+    <string name="Title_Ashmolean">アシュモレアン博物館</string>
+    <string name="Address_Ashmolean">アドレス：Beaumont Street, Oxford OX1 2PH.</string>
+    <string name="Hours_Ashmolean">営業時間：火曜日ー日曜日 10:00 – 17:00</string>
+    <string name="Website_Ashmolean">ウェブサイト： <a href="AshmoleanMuseumWebsite">http://www.ashmolean.org</a></string>
+    <string name="Ashmolean_Signup_Button">ツアーに参加する</string>
+    <string name="Ashmolean_Review_Button">この所を批評する</string>
+    <string name="Beacon_Festival">ビーコンフェスティバル</string>
+    <string name="We_Will_Rock_You">ウィー・ウィル・ロック・ユー</string>
+    <string name="Milton_Impossible">ミルトン・インポシブル</string>
+    <string name="Oxford_Boxing_Championships">オクスフォードボクシングチャンピオンシップ</string>
+    <string name="SignUp1">エヴェントに参加する</string>
+    <string name="SignUp2">エヴェントに参加する</string>
+    <string name="SignUp3">エヴェントに参加する</string>
+    <string name="SignUp4">エヴェントに参加する</string>
+    <string name="SignUp5">エヴェントに参加する</string>
+    <string name="Christ_Church_Link">ウェブサイト：www.chch.ox.ac.uk/</string>
+    <string name="Details">情報</string>
+    <string name="Title_Christ_Church">クライスト・チャーチ</string>
+    <string name="Christ_Church_Review">クライスト・チャーチの批評</string>
+    <string name="Christ_Church_SignUp">ツアーに参加する</string>
+    <string name="title_activity_maps_page">マップ</string>
+    <string name="ratingsrestaurant1">オクスフォードキチン</string>
+    <string name="ratingsrestaurant2">シェアルェル・ボートハウス</string>
+    <string name="ratingsrestaurant3">１．シップ・ストリート</string>
+    <string name="GoTo1">もっと見られるためにここにクリックしてください</string>
+    <string name="GoTo2">もっと見られるためにここにクリックしてください</string>
+    <string name="GoTo3">もっと見られるためにここにクリックしてください</string>
+    <string name="GoTo4">もっと見られるためにここにクリックしてください</string>
+    <string name="GoTo5">もっと見られるためにここにクリックしてください</string>
+    <string name="GoTo6">もっと見られるためにここにクリックしてください</string>
+    <string name="magdalen_college">マグダレンカレッジ</string>
+    <string name="magdalen_college_review">マグダレンカレッジの批評</string>
+    <string name="magdalen_college_signup">ツアーに参加する</string>
+    <string name="new_user">ユーザーを付け足す</string>
+    <string name="save">セーブ</string>
+    <string name="saved">セーブができました</string>
+    <string name="not_saved">セーブができませんでした</string>
+    <string name="first_name">名前</string>
+    <string name="surname">名字</string>
+    <string name="email_address">メール</string>
+    <string name="age">年齢</string>
+    <string name="password">パスワード</string>
+    <string name="sign_up">新規登録</string>
+    <string name="title_activity_login">ログイン</string>
+    <string name="prompt_email">メール</string>
+    <string name="prompt_password">パスワード</string>
+    <string name="action_sign_in">ログインか新規登録をする</string>
+    <string name="action_sign_in_short">ログイン</string>
+    <string name="welcome">ようこそ！</string>
+    <string name="invalid_username">無効なユーザー名</string>
+    <string name="invalid_password">無効なパスワード</string>
+    <string name="login_failed">ログインフェール</string>
+    <string name="create_account">新規登録</string>
+    <string name="tg_box">ガイドアカウント</string>
+    <string name="login">ログイン</string>
+    <string name="title_activity_faqpage">FAQページ</string>
+    <string name="MainText_Oxford_Kitchen">ミシェリンの星を獲得した、モダンなひねりを加えたノスタルジックなイギリス料理。批評家が話している料理を提供するエグゼクティブシェフ、ポールウェルバーンの刺激的な創作。ポールは、イギリスのお気に入りの料理のいくつかにモダンなひねりを加えたことで有名です。 オクスフォードキチンは、現代的で親密な雰囲気とフレンドリーで気配りのあるサービスを提供し、アラカルトメニューとテイスティングメニューの絶妙な味の組み合わせを味わうのに理想的です。慎重に編集されたワインリストから選択するか、新鮮な地元の食材で作られた特製カクテルで食事を始めてください。</string>
+    <string name="MainText_Cherwell_Boathouse">レストランとパントステーションを組み合わせたチャーウェルボートハウスは、街で最高の景色を誇っています。これにより、豊富なワインリストからのグラスで川を眺めることができます。ワインリストは、グッドフードガイドの「年間ワインリスト」を受賞しています。レストランが最初にオープンした1968年以来、バーディン家が所有していたメニューは、ガリック風にアレンジしたイギリスの食材にマッチしています。メニューには、アーティチョークのクレームキャラメル、フォアグラのビーフフィレ、ホワイトチョコレートとカルダモンのムースなど、珍しい美味しい料理が味わえます。オックスフォードの多くの宝物を楽しんで過ごした一日の完璧な終わりは、パンティングの歴史的な娯楽を見下ろすこの理想的な場所で食事を楽しむことです。</string>
+    <string name="MainText_No1_ShipStreet">１階は現代的なイギリスブラッセリーです。 ２階はシャンパン、オイスター、カクテルバーです。バーでのお食事、アラカルトメニューをご利用いただけます。カキ、ロブスター、その日の市場の魚を使った日替わりスペシャルボードです。</string>
+    <string name="MainText_Ashmolean">イギリスのオックスフォードのボーモントストリートにあるアシュモリアン芸術と考古の博物館は、世界初の大学博物館です。最初の建物は1678年から83年にかけて建てられ、「エリアスアシュモレ」が1677年にオックスフォード大学に提供した好奇心のキャビネットを収容しました。</string>
+    <string name="About_Christ_Church">壮大な建築、文学遺産、ハリーポッターのホグワーツの一部としての二重のアイデンティティの魅力的な組み合わせにより、クライストチャーチは観光客を魅了します。オックスフォードの最大の大学の中で–牧歌的な牧草地を含めると最大の–とその最も印象的なクワッドの誇り高き所有者、さらに素晴らしいアートギャラリーと大聖堂さえ、それは1525年にウォルジー枢機卿によって設立されました。後にルイスキャロルの本拠地となり、当時の学長の娘とのピクニックツアーで、不思議の国のアリスアドベンチャーを体験できました。</string>
+    <string name="Info">連絡先：-01865-276492　－　午前１０時から、午後５時まで、月曜日ー土曜日。 午後2時日曜日から。入場は午後4:15時まで。大人・子供・7月ー8月£１０・£９、9月ー6月£８・£７</string>
+    <string name="ratingsplace1">アシュモレアン博物館</string>
+    <string name="ratingsplace3">マグダレンカレッジ</string>
+    <string name="ratingsplace2">クライスト・チャーチ</string>
+    <string name="RatingsTitle">"人気度 "</string>
+    <string name="large_text">
+
+        1. どうやって批評できますか？
+
+        左側のナヴィゲーションヘダをクリックするとランドマークかレストランのボタンを押せればランドマークかレストランのページで批評ができます。
+
+        2.  どうやって新規登録が作れますか？
+
+        ナヴィゲーションヘダをクリックしてロギング・新規登録を選んでください。このページの下新規登録のボタンがあります。
+        このボタンをクリックすると新規登録ページになって自己情報が書けます。 ツアーガイドの新規登録を作ればツアーガイドチェックボックスをクリックするのは必要です。
+        新規登録の作る後でメールとパスワードでログインができるようになります。
+
+        3.他のユーザーにメッセージができますか？
+
+        今この機能ができませんが将来にこの機能を作って欲しいです。
+    </string>
+
+
+</resources>
