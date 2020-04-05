@@ -34,13 +34,13 @@
     <string name="No1_Ship_Street_Button">１．シップ・ストリート</string>
     <string name="Website_Oxford_Kitchen">ウェブサイト：<a href="oxford_kitchen_website">http://www.theoxfordkitchen.co.uk</a></string>
     <string name="Address_Oxford_Kitchen">アドレス：215 Banbury Road, Oxford OX2 7HQ England</string>
-    <string name="Hours_Oxford_Kitchen">営業時間：火曜日 - 土曜日 12:00 - 14:30 と18:00 - 23:00</string>
+    <string name="Hours_Oxford_Kitchen">営業時間：火曜日 – 土曜日 12:00 – 14:30 と18:00 – 23:00</string>
     <string name="Oxford_Literary_Festival">オクスフォード文祭</string>
     <string name="Address_Cherwell_Boathouse">アドレス：50 Bardwell Road, Oxford, England, OX2 6ST, United Kingdom</string>
-    <string name="Hours_Cherwell_Boathouse">営業時間：午後12.30-15:00 午後18.30-21.30</string>
+    <string name="Hours_Cherwell_Boathouse">営業時間：午後12.30–15:00 午後18.30–21.30</string>
     <string name="Website_Cherwell_Boathouse">ウェブサイト：<a href="cherwell_boathouse_website">http://cherwellboathouse.co.uk/</a></string>
     <string name="Address_No1_ShipStreet">アドレス：50 Bardwell Road, Oxford, England, OX2 6ST, United Kingdom</string>
-    <string name="Hours_No1_ShipStreet">営業時間： 日曜日12:00 - 15:30・ 月曜日 - 土曜日12:00 - 23:00</string>
+    <string name="Hours_No1_ShipStreet">営業時間： 日曜日12:00 – 15:30・ 月曜日 – 土曜日12:00 – 23:00</string>
     <string name="Website_No1_ShipStreet">ウェブサイト： <a href="shipstreet_website">https://www.no1shipstreet.com/</a></string>
     <string name="Title_Ashmolean">アシュモレアン博物館</string>
     <string name="Address_Ashmolean">アドレス：Beaumont Street, Oxford OX1 2PH.</string>
@@ -103,7 +103,7 @@
     <string name="MainText_No1_ShipStreet">１階は現代的なイギリスブラッセリーです。 ２階はシャンパン、オイスター、カクテルバーです。バーでのお食事、アラカルトメニューをご利用いただけます。カキ、ロブスター、その日の市場の魚を使った日替わりスペシャルボードです。</string>
     <string name="MainText_Ashmolean">イギリスのオックスフォードのボーモントストリートにあるアシュモリアン芸術と考古の博物館は、世界初の大学博物館です。最初の建物は1678年から83年にかけて建てられ、「エリアスアシュモレ」が1677年にオックスフォード大学に提供した好奇心のキャビネットを収容しました。</string>
     <string name="About_Christ_Church">壮大な建築、文学遺産、ハリーポッターのホグワーツの一部としての二重のアイデンティティの魅力的な組み合わせにより、クライストチャーチは観光客を魅了します。オックスフォードの最大の大学の中で–牧歌的な牧草地を含めると最大の–とその最も印象的なクワッドの誇り高き所有者、さらに素晴らしいアートギャラリーと大聖堂さえ、それは1525年にウォルジー枢機卿によって設立されました。後にルイスキャロルの本拠地となり、当時の学長の娘とのピクニックツアーで、不思議の国のアリスアドベンチャーを体験できました。</string>
-    <string name="Info">連絡先：-01865-276492　－　午前１０時から、午後５時まで、月曜日ー土曜日。 午後2時日曜日から。入場は午後4:15時まで。大人・子供・7月ー8月£１０・£９、9月ー6月£８・£７</string>
+    <string name="Info">連絡先：–01865–276492　－　午前１０時から、午後５時まで、月曜日ー土曜日。 午後2時日曜日から。入場は午後4:15時まで。大人・子供・7月ー8月£１０・£９、9月ー6月£８・£７</string>
     <string name="ratingsplace1">アシュモレアン博物館</string>
     <string name="ratingsplace3">マグダレンカレッジ</string>
     <string name="ratingsplace2">クライスト・チャーチ</string>
@@ -124,6 +124,16 @@
 
         今この機能ができませんが将来にこの機能を作って欲しいです。
     </string>
+    <string name="log_out">ログアウト</string>
+    <string name="Nav_Draw_Events">エベント</string>
+    <string name="Nav_Draw_Map">マップ</string>
+    <string name="Nav_Draw_Ratings">人気度</string>
+    <string name="Nav_Draw_Places">場所</string>
+    <string name="Nav_Draw_Forums">フォーラム</string>
+    <string name="English_Language_Selection">英語</string>
+    <string name="Japanese_Language_Selection">日本語</string>
+    <string name="Language_Settings">言語</string>
+    <string name="Welcome_Screen">オクスフォードツアーへようこそ！</string>
 
 
 </resources>

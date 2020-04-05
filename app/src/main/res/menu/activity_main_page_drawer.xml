@@ -11,25 +11,25 @@
         <item
             android:id="@+id/nav_events"
             android:icon="@drawable/ic_menu_camera"
-            android:title="Events" />
+            android:title="@string/Nav_Draw_Events" />
         <item
             android:id="@+id/nav_places"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="Places" />
+            android:title="@string/Nav_Draw_Places" />
 
         <item
             android:id="@+id/nav_map"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="Map" />
+            android:title="@string/Nav_Draw_Map" />
 
         <item
             android:id="@+id/nav_ratings"
             android:icon="@drawable/ic_menu_manage"
-            android:title="Ratings" />
+            android:title="@string/Nav_Draw_Ratings" />
         <item
             android:id="@+id/nav_Forum"
             android:icon="@drawable/ic_menu_send"
-            android:title="Forums"/>
+            android:title="@string/Nav_Draw_Forums"/>
     </group>
 
     <!--<item android:title="Communicate">

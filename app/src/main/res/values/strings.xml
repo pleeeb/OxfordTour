@@ -199,6 +199,16 @@
         Currently this feature is not implemented within the app. In the future we are looking
         to add this feature.
     </string>
+    <string name="log_out">Logout</string>
+    <string name="Nav_Draw_Events">Events</string>
+    <string name="Nav_Draw_Places">Places</string>
+    <string name="Nav_Draw_Map">Map</string>
+    <string name="Nav_Draw_Ratings">Ratings</string>
+    <string name="Nav_Draw_Forums">Forums</string>
+    <string name="Language_Settings">Language</string>
+    <string name="English_Language_Selection">English</string>
+    <string name="Japanese_Language_Selection">Japanese</string>
+    <string name="Welcome_Screen">Welcome to OxfordTour</string>
 
 
 </resources>
