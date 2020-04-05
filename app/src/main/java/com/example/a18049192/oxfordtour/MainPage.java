@@ -1,7 +1,11 @@
 package com.example.a18049192.oxfordtour;
 
+import android.app.Activity;
 import android.content.Intent;
+import android.content.SharedPreferences;
+import android.content.res.Configuration;
 import android.os.Bundle;
+import android.provider.Settings;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -9,6 +13,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import com.google.android.material.navigation.NavigationView;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -25,6 +30,7 @@ import androidx.room.Entity;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Locale;
 import java.util.UUID;
 
 public class MainPage extends AppCompatActivity
@@ -44,9 +50,12 @@ public class MainPage extends AppCompatActivity
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        loadLocale();
         setContentView(R.layout.activity_main_page);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.setTitle(getResources().getString(R.string.app_name));
         /*FloatingActionButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -91,6 +100,24 @@ public class MainPage extends AppCompatActivity
 
     }
 
+    private void setLocale (String lang) {
+        Locale locale = new Locale(lang);
+        Locale.setDefault(locale);
+        Configuration config = new Configuration();
+        config.locale = locale;
+        getBaseContext().getResources().updateConfiguration(config, getBaseContext().getResources().getDisplayMetrics());
+
+        SharedPreferences.Editor editor = getSharedPreferences("Settings", MODE_PRIVATE).edit();
+        editor.putString("My_Lang", lang);
+        editor.apply();
+    }
+
+    public void loadLocale() {
+        SharedPreferences prefs = getSharedPreferences("Settings", Activity.MODE_PRIVATE);
+        String language = prefs.getString("My_Lang", "");
+        setLocale(language);
+    }
+
 
     @Override
     public void onBackPressed() {
@@ -115,21 +142,46 @@ public class MainPage extends AppCompatActivity
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
+        switch (id){
+            case R.id.action_settings:
+                Toast.makeText(this, "English Selected", Toast.LENGTH_SHORT).show();
+                return true;
+            case R.id.English_Selection:
+                Toast.makeText(this, "English Selected", Toast.LENGTH_SHORT).show();
+                setLocale("en");
+                recreate();
+                return true;
+            case R.id.Japanese_Selection:
+                Toast.makeText(this, "日本語を選びました", Toast.LENGTH_SHORT).show();
+                setLocale("ja-rJP");
+                recreate();
+                return true;
+            case R.id.log_out:
+                loggedin=false;
+                Signup.firstname="";
+                Signup.surname="";
+                Signup.email="";
+                Signup.age="";
+                Signup.password="";
+                Signup.isTG=false;
+                recreate();
+        }
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
-        else if(id==R.id.log_out){
-            loggedin=false;
-            Signup.firstname="";
-            Signup.surname="";
-            Signup.email="";
-            Signup.age="";
-            Signup.password="";
-            Signup.isTG=false;
-            recreate();
-        }
+       //if (id == R.id.action_settings) {
+       //    return true;
+       //}
+
+       //else if(id==R.id.log_out){
+       //    loggedin=false;
+       //    Signup.firstname="";
+       //    Signup.surname="";
+       //    Signup.email="";
+       //    Signup.age="";
+       //    Signup.password="";
+       //    Signup.isTG=false;
+       //    recreate();
+       //}
 
         return super.onOptionsItemSelected(item);
     }
