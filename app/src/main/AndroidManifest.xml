@@ -16,9 +16,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ForumPage"
+        <activity android:name=".Forum_Restaurants"
             android:label="Forum"
-            android:parentActivityName=".MainPage"></activity>
+            android:parentActivityName=".ForumPage"></activity>
+        <activity android:name=".Forum_Places"
+            android:label="Forum"
+            android:parentActivityName=".ForumPage"/>
+        <activity android:name=".Forum_General"
+            android:label="Forum"
+            android:parentActivityName=".ForumPage"/>
+        <activity
+            android:name=".ForumPage"
+            android:label="Forum"
+            android:parentActivityName=".MainPage" />
         <activity
             android:name=".FAQPage"
             android:label="FAQ"
